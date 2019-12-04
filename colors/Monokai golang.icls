@@ -4,7 +4,7 @@
     <property name="created">2019-12-04T17:52:14</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2019.2.5.0.0</property>
-    <property name="modified">2019-12-04T20:18:30</property>
+    <property name="modified">2019-12-04T20:43:50</property>
     <property name="originalScheme">_@user_Monokai</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -692,6 +692,11 @@
         <option name="FOREGROUND" value="66d9ef" />
       </value>
     </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="fd971f" />
+      </value>
+    </option>
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="f8f8f2" />
@@ -733,6 +738,16 @@
         <option name="FOREGROUND" value="f8f8f2" />
       </value>
     </option>
+    <option name="GO_PACKAGE">
+      <value>
+        <option name="FOREGROUND" value="ffa841" />
+      </value>
+    </option>
+    <option name="GO_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="48e34c" />
+      </value>
+    </option>
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="ae81ff" />
@@ -763,15 +778,15 @@
         <option name="FOREGROUND" value="75715e" />
       </value>
     </option>
-    <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
-    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_FILTER" baseAttributes="" />
+    <option name="HAML_FILTER_CONTENT" baseAttributes="" />
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
-    <option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_RUBY_CODE" baseAttributes="" />
+    <option name="HAML_RUBY_START" baseAttributes="" />
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="e6db74" />
@@ -782,14 +797,14 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
-    <option name="HAML_TAG" baseAttributes="TEXT" />
+    <option name="HAML_TAG" baseAttributes="" />
     <option name="HAML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="HAML_TEXT" baseAttributes="TEXT" />
-    <option name="HAML_XHTML" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_TEXT" baseAttributes="" />
+    <option name="HAML_XHTML" baseAttributes="" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
