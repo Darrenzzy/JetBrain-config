@@ -62,6 +62,7 @@
     <keyboard-shortcut first-keystroke="ctrl 0" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="EditorToggleCase" />
   <action id="ExportSettings">
     <keyboard-shortcut first-keystroke="shift alt open_bracket" />
   </action>
@@ -119,6 +120,7 @@
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta alt l" />
     <keyboard-shortcut first-keystroke="shift meta l" />
@@ -133,6 +135,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
   <action id="context.save" />
+  <action id="de.netnexus.CamelCasePlugin.ToggleCamelCase">
+    <keyboard-shortcut first-keystroke="shift alt u" />
+    <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
   <action id="hg4idea.UpdateToRevision">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
