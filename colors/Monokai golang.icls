@@ -4,7 +4,7 @@
     <property name="created">2019-12-04T17:52:14</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2019.2.5.0.0</property>
-    <property name="modified">2019-12-06T14:44:56</property>
+    <property name="modified">2019-12-09T13:47:24</property>
     <property name="originalScheme">_@user_Monokai</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -468,7 +468,7 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="35e200" />
+        <option name="FOREGROUND" value="66d9ef" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -565,18 +565,6 @@
       <value>
         <option name="EFFECT_COLOR" value="c0c0c0" />
         <option name="EFFECT_TYPE" value="3" />
-      </value>
-    </option>
-    <option name="DIFF_DELETED">
-      <value>
-        <option name="BACKGROUND" value="3590cf" />
-        <option name="ERROR_STRIPE_COLOR" value="656e76" />
-      </value>
-    </option>
-    <option name="DIFF_MODIFIED">
-      <value>
-        <option name="BACKGROUND" value="3590cf" />
-        <option name="ERROR_STRIPE_COLOR" value="1c5c99" />
       </value>
     </option>
     <option name="DJANGO_COMMENT">
@@ -702,6 +690,7 @@
     <option name="GO_BUILTIN_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="GO_BUILTIN_TYPE_REFERENCE">
@@ -718,11 +707,13 @@
     <option name="GO_EXPORTED_FUNCTION">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="GO_EXPORTED_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="GO_KEYWORD">
@@ -738,16 +729,18 @@
     <option name="GO_LOCAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="GO_LOCAL_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="GO_METHOD_RECEIVER">
       <value>
-        <option name="FOREGROUND" value="f92672" />
+        <option name="FOREGROUND" value="a6e22e" />
       </value>
     </option>
     <option name="GO_PACKAGE">
@@ -790,15 +783,15 @@
         <option name="FOREGROUND" value="75715e" />
       </value>
     </option>
-    <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
-    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_FILTER" baseAttributes="" />
+    <option name="HAML_FILTER_CONTENT" baseAttributes="" />
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
-    <option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_RUBY_CODE" baseAttributes="" />
+    <option name="HAML_RUBY_START" baseAttributes="" />
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="e6db74" />
@@ -809,14 +802,14 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
-    <option name="HAML_TAG" baseAttributes="TEXT" />
+    <option name="HAML_TAG" baseAttributes="" />
     <option name="HAML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="HAML_TEXT" baseAttributes="TEXT" />
-    <option name="HAML_XHTML" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_TEXT" baseAttributes="" />
+    <option name="HAML_XHTML" baseAttributes="" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
@@ -1003,12 +996,6 @@
         <option name="FOREGROUND" value="a6e22e" />
       </value>
     </option>
-    <option name="MAGIC_MEMBER_ACCESS">
-      <value>
-        <option name="FOREGROUND" value="a6e22e" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3a6da0" />
@@ -1109,12 +1096,6 @@
     <option name="OC_FORMAT_TOKEN">
       <value>
         <option name="FOREGROUND" value="e6db74" />
-      </value>
-    </option>
-    <option name="PHP_CONSTANT">
-      <value>
-        <option name="FOREGROUND" value="3590cf" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="PHP_PARAMETER">
