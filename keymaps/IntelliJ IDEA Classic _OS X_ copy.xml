@@ -97,6 +97,10 @@
     <keyboard-shortcut first-keystroke="shift meta alt x" />
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="shift meta r" />
@@ -122,7 +126,6 @@
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta l" />
-    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="WD.UploadCurrentRemoteFileAction">
