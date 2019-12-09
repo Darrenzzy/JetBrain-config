@@ -1,4 +1,9 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="ec590465-82da-44e1-a077-b6081f948be5" name="darrenzzy">
+      <server host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="1042797627@qq.com" />
     <option name="HOST" value="https://github.com" />
