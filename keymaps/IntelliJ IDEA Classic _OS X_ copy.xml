@@ -1,27 +1,32 @@
 <keymap version="1" name="IntelliJ IDEA Classic (OS X) copy" parent="Mac OS X">
   <action id="$LRU">
     <keyboard-shortcut first-keystroke="shift alt o" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
   <action id="ActivateFileTransferToolWindow">
-    <keyboard-shortcut first-keystroke="meta 0" />
+    <keyboard-shortcut first-keystroke="meta 6" />
   </action>
   <action id="ActivateFindToolWindow" />
   <action id="ActivateRemoteHostToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 8" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="meta alt w" />
   </action>
-  <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="alt w" />
-  </action>
   <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="meta f4" />
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="CloseProject">
@@ -29,6 +34,9 @@
   </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift meta slash" />
+  </action>
+  <action id="ConfigureIcs">
+    <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="CopyAsRichText">
     <keyboard-shortcut first-keystroke="shift alt h" />
@@ -38,6 +46,7 @@
   </action>
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="shift alt o" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -53,15 +62,24 @@
     <keyboard-shortcut first-keystroke="ctrl 0" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="ExportSettings">
+    <keyboard-shortcut first-keystroke="shift alt open_bracket" />
+  </action>
   <action id="FileChooser.GotoModule" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta alt a" />
+  </action>
   <action id="GotoBookmark0" />
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta h" />
     <keyboard-shortcut first-keystroke="meta l" />
+  </action>
+  <action id="ImportSettings">
+    <keyboard-shortcut first-keystroke="shift alt close_bracket" />
   </action>
   <action id="MarkSourceRoot">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
@@ -72,6 +90,17 @@
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="PublishGroup.UploadTo">
+    <keyboard-shortcut first-keystroke="shift meta alt x" />
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="shift meta r" />
@@ -79,25 +108,35 @@
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="SaveAll" />
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="SelectInRemoteHost">
+    <keyboard-shortcut first-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
   <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl g" />
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowReformatFileDialog">
-    <keyboard-shortcut first-keystroke="shift meta alt l" />
     <keyboard-shortcut first-keystroke="shift meta l" />
-    <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="WD.UploadCurrentRemoteFileAction">
     <keyboard-shortcut first-keystroke="shift alt s" />
-  </action>
-  <action id="WebDeployment.BrowseServers">
-    <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="WebDeployment.ToggleAutoUpload">
     <keyboard-shortcut first-keystroke="ctrl meta alt u" />
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
   <action id="context.save" />
+  <action id="hg4idea.UpdateToRevision">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
 </keymap>
