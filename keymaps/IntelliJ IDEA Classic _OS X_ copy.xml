@@ -6,6 +6,7 @@
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFileTransferToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
