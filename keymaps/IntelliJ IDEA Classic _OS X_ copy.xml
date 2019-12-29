@@ -6,6 +6,7 @@
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFileTransferToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
@@ -21,6 +22,9 @@
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="meta 9" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="meta alt w" />
