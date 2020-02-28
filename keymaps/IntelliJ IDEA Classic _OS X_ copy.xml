@@ -136,6 +136,12 @@
   <action id="WD.UploadCurrentRemoteFileAction">
     <keyboard-shortcut first-keystroke="shift alt s" />
   </action>
+  <action id="WebDeployment.BrowseServers">
+    <keyboard-shortcut first-keystroke="ctrl meta 4" />
+  </action>
+  <action id="WebDeployment.Configuration">
+    <keyboard-shortcut first-keystroke="meta alt 4" />
+  </action>
   <action id="WebDeployment.ToggleAutoUpload">
     <keyboard-shortcut first-keystroke="ctrl meta alt u" />
     <keyboard-shortcut first-keystroke="ctrl alt l" />
