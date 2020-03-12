@@ -130,6 +130,7 @@
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta l" />
+    <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="VimPluginToggle">
