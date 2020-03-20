@@ -6,12 +6,16 @@
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFileTransferToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
   <action id="ActivateFindToolWindow" />
   <action id="ActivateRemoteHostToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl meta 8" />
   </action>
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="meta 0" />
@@ -21,6 +25,9 @@
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="meta 9" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="meta alt w" />
@@ -35,8 +42,16 @@
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift meta slash" />
   </action>
+  <action id="ConfigureIcs">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
   <action id="CopyAsRichText">
     <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="ctrl end" />
   </action>
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="meta back_space" />
@@ -55,10 +70,19 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
+  <action id="EditorLookupDown">
+    <keyboard-shortcut first-keystroke="ctrl end" />
+  </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="shift alt m" />
+  </action>
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="ctrl 0" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="ExportSettings">
+    <keyboard-shortcut first-keystroke="shift alt open_bracket" />
+  </action>
   <action id="FileChooser.GotoModule" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
@@ -72,9 +96,16 @@
     <keyboard-shortcut first-keystroke="meta h" />
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="ImportSettings">
+    <keyboard-shortcut first-keystroke="shift alt close_bracket" />
+  </action>
   <action id="MarkSourceRoot">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
+  <action id="NextEditorTab">
+    <keyboard-shortcut first-keystroke="ctrl end" />
+  </action>
+  <action id="NextTab" />
   <action id="OpenDirectoryProject">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
@@ -82,7 +113,7 @@
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
   <action id="PublishGroup.Upload">
-    <keyboard-shortcut first-keystroke="alt s" />
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="PublishGroup.UploadTo">
     <keyboard-shortcut first-keystroke="shift meta alt x" />
@@ -90,7 +121,7 @@
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
-    <keyboard-shortcut first-keystroke="alt r" />
+    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
@@ -99,6 +130,11 @@
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="SaveAll" />
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
@@ -109,14 +145,25 @@
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowReformatFileDialog">
-    <keyboard-shortcut first-keystroke="shift meta alt l" />
-    <keyboard-shortcut first-keystroke="shift meta l" />
-    <keyboard-shortcut first-keystroke="ctrl meta l" />
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="Terminal.MoveToEditor">
+    <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="WD.UploadCurrentRemoteFileAction">
     <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
+  <action id="WebDeployment.BrowseServers">
+    <keyboard-shortcut first-keystroke="ctrl meta 4" />
+  </action>
+  <action id="WebDeployment.Configuration">
+    <keyboard-shortcut first-keystroke="meta alt 4" />
   </action>
   <action id="WebDeployment.ToggleAutoUpload">
     <keyboard-shortcut first-keystroke="ctrl meta alt u" />
