@@ -20,6 +20,12 @@
         </option>
       </SdkSettings>
     </option>
+    <option name="updaterSettings">
+      <UpdaterSettings>
+        <option name="lastCheckedTimeInMillis" value="1586825373738" />
+        <option name="latestPluginVersion" value="3.3.0" />
+      </UpdaterSettings>
+    </option>
     <option name="webEngineSettings">
       <WebEngineSettings>
         <option name="nativePath" value="$USER_HOME$/Library/Caches/GoLand2019.3/studio_cef_native" />
