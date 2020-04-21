@@ -14,6 +14,9 @@
   <action id="ActivateRemoteHostToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl meta 8" />
+  </action>
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
@@ -26,6 +29,9 @@
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="ChangesView.SetDefault">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="meta alt w" />
   </action>
@@ -36,14 +42,23 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift meta slash" />
   </action>
   <action id="ConfigureIcs">
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
+  <action id="Console.TableResult.SetDefault" />
   <action id="CopyAsRichText">
     <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="ctrl end" />
   </action>
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="meta back_space" />
@@ -61,6 +76,12 @@
   </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="EditorLookupDown">
+    <keyboard-shortcut first-keystroke="ctrl end" />
+  </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="ctrl 0" />
@@ -88,11 +109,18 @@
   <action id="MarkSourceRoot">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
+  <action id="NextEditorTab">
+    <keyboard-shortcut first-keystroke="ctrl end" />
+  </action>
+  <action id="NextTab" />
   <action id="OpenDirectoryProject">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
+  <action id="PreviousEditorTab">
+    <keyboard-shortcut first-keystroke="ctrl home" />
   </action>
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="meta s" />
@@ -105,9 +133,16 @@
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
+  <action id="Refresh">
+    <keyboard-shortcut first-keystroke="ctrl alt f5" />
+  </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="Rerun" />
+  <action id="RestoreDefaultLayout">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl f10" />
@@ -128,9 +163,14 @@
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="ctrl f11" />
+  </action>
   <action id="ShowReformatFileDialog">
-    <keyboard-shortcut first-keystroke="shift meta l" />
     <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="Terminal.MoveToEditor">
+    <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="VimPluginToggle">
@@ -152,5 +192,9 @@
   <action id="context.save" />
   <action id="hg4idea.UpdateToRevision">
     <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="learn.next.lesson">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
 </keymap>
