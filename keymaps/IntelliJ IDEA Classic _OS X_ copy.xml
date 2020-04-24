@@ -102,6 +102,7 @@
   <action id="MarkSourceRoot">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
+  <action id="MethodDown" />
   <action id="NextEditorTab">
     <keyboard-shortcut first-keystroke="ctrl end" />
   </action>
@@ -130,9 +131,11 @@
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
-  <action id="RunClass">
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
+  <action id="RunClass" />
   <action id="SaveAll" />
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl s" />
