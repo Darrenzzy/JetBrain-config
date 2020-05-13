@@ -154,6 +154,9 @@
   <action id="Terminal.MoveToEditor">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="VimPluginToggle">
     <keyboard-shortcut first-keystroke="alt v" />
