@@ -2,5 +2,6 @@
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc;*.php;*.go;*.yml;*l" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
 </application>
