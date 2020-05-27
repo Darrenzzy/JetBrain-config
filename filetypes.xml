@@ -1,8 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="protobac" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
+      <mapping ext="protobak" type="PLAIN_TEXT" />
+      <mapping ext="protobac" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
