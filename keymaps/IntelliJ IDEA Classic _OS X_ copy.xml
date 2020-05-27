@@ -158,6 +158,9 @@
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.ShowHistoryForBlock">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
   <action id="VimPluginToggle">
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
