@@ -4,6 +4,9 @@
   <GoCodeStyleSettings>
     <option name="ADD_LEADING_SPACE_TO_COMMENTS" value="true" />
   </GoCodeStyleSettings>
+  <JetCodeStyleSettings>
+    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
+  </JetCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
   </PHPCodeStyleSettings>
@@ -22,6 +25,9 @@
       <option name="USE_TAB_CHARACTER" value="true" />
       <option name="SMART_TABS" value="true" />
     </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="kotlin">
+    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
   </codeStyleSettings>
   <codeStyleSettings language="yaml">
     <indentOptions>
