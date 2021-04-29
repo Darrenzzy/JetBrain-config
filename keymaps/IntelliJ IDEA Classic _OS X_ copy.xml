@@ -49,8 +49,15 @@
   <action id="ConfigureIcs">
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
+  <action id="ContextHelp">
+    <keyboard-shortcut first-keystroke="shift f1" />
+  </action>
   <action id="CopyAsRichText">
     <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="f1" />
+    <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
@@ -90,6 +97,9 @@
   <action id="EditorSelectWord" />
   <action id="ExportSettings">
     <keyboard-shortcut first-keystroke="shift alt open_bracket" />
+  </action>
+  <action id="ExternalJavaDoc">
+    <keyboard-shortcut first-keystroke="shift ctrl f1" />
   </action>
   <action id="FileChooser.GotoModule" />
   <action id="FindInPath">
@@ -153,7 +163,6 @@
   </action>
   <action id="SelectInRemoteHost">
     <keyboard-shortcut first-keystroke="alt c" />
-    <keyboard-shortcut first-keystroke="alt 4" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta g" />
@@ -165,6 +174,14 @@
   </action>
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="shift f7" />
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="alt 4" />
   </action>
   <action id="Terminal.MoveToEditor">
     <keyboard-shortcut first-keystroke="ctrl e" />
