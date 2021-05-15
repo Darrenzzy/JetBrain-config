@@ -191,8 +191,8 @@
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
-  <action id="SmartStepInto">
-    <keyboard-shortcut first-keystroke="shift f7" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="StepOut">
