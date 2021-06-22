@@ -9,7 +9,7 @@
     <option name="languageName" value="go" />
     <option name="languageToProjectMap">
       <map>
-        <entry key="go" value="$USER_HOME$/GolandProjects/LearnGoProject" />
+        <entry key="go" value="$APPLICATION_CONFIG_DIR$/demo/LearnGoProject" />
       </map>
     </option>
   </component>
@@ -22,6 +22,8 @@
         <entry key="code completion for functions" value="NOT_PASSED" />
         <entry key="code completion for pointers" value="NOT_PASSED" />
         <entry key="code completion for type assertions and switch constructions" value="NOT_PASSED" />
+        <entry key="code_completion_for_benchmarks_bn" value="NOT_PASSED" />
+        <entry key="code_completion_for_time_package" value="NOT_PASSED" />
         <entry key="codeassistance.codeformatting" value="NOT_PASSED" />
         <entry key="codeassistance.editorcodingassistance" value="NOT_PASSED" />
         <entry key="codeassistance.parameterinfo" value="NOT_PASSED" />
@@ -31,6 +33,7 @@
         <entry key="completion with tab" value="NOT_PASSED" />
         <entry key="debug function calls" value="NOT_PASSED" />
         <entry key="declaration and usages" value="NOT_PASSED" />
+        <entry key="dump_goroutines" value="NOT_PASSED" />
         <entry key="duplicate" value="NOT_PASSED" />
         <entry key="editorbasics.commentline" value="NOT_PASSED" />
         <entry key="editorbasics.deleteline" value="NOT_PASSED" />
@@ -40,6 +43,8 @@
         <entry key="file structure" value="NOT_PASSED" />
         <entry key="fixing a test file" value="NOT_PASSED" />
         <entry key="generate missing methods" value="NOT_PASSED" />
+        <entry key="generate_getters_and_setters" value="NOT_PASSED" />
+        <entry key="go_var_check_error_postfix_template" value="NOT_PASSED" />
         <entry key="goland2019.2.extractmethodrefactoringwithreturns" value="NOT_PASSED" />
         <entry key="goland2019.2.fillstructfields" value="NOT_PASSED" />
         <entry key="goland2019.2.redundanttypeconversions" value="NOT_PASSED" />
@@ -60,6 +65,7 @@
         <entry key="gophercon.rename" value="NOT_PASSED" />
         <entry key="handling errors with live and postfix templates" value="NOT_PASSED" />
         <entry key="handling errors with live and postfix templates: if and rr" value="NOT_PASSED" />
+        <entry key="handling_unhandled_errors" value="NOT_PASSED" />
         <entry key="hippie completion" value="NOT_PASSED" />
         <entry key="live and postfix templates: else, fori, and vars" value="NOT_PASSED" />
         <entry key="method-like function completion" value="NOT_PASSED" />
@@ -77,6 +83,7 @@
         <entry key="postfix templates (nn, panic, rr, and return)" value="NOT_PASSED" />
         <entry key="quick-fixes and refactorings in goland 2020.1" value="NOT_PASSED" />
         <entry key="quick-fixes, refactorings, and external documentation" value="NOT_PASSED" />
+        <entry key="quick_fixes_create_type_and_type_incompatibility" value="NOT_PASSED" />
         <entry key="refactoring menu" value="NOT_PASSED" />
         <entry key="refactorings.extractmethod" value="NOT_PASSED" />
         <entry key="refactorings.extractvariable/field" value="NOT_PASSED" />
@@ -89,6 +96,8 @@
         <entry key="smart type completion for type assertions and switch constructions" value="NOT_PASSED" />
         <entry key="statement completion" value="NOT_PASSED" />
         <entry key="struct inspections" value="NOT_PASSED" />
+        <entry key="support_for_table_tests" value="NOT_PASSED" />
+        <entry key="support_of_go_embed" value="NOT_PASSED" />
         <entry key="swift.codeassistance.codeformatting" value="NOT_PASSED" />
         <entry key="swift.codeassistance.quickpopups" value="NOT_PASSED" />
         <entry key="swift.codegeneration.createfromusage" value="NOT_PASSED" />
@@ -113,10 +122,12 @@
         <entry key="swift.refactorings.extract.method" value="NOT_PASSED" />
         <entry key="swift.refactorings.extract.variable" value="NOT_PASSED" />
         <entry key="swift.refactorings.rename" value="NOT_PASSED" />
+        <entry key="unsafe_context_cancellation" value="NOT_PASSED" />
         <entry key="using live templates with types" value="NOT_PASSED" />
         <entry key="using the implement methods action" value="NOT_PASSED" />
         <entry key="working with types" value="NOT_PASSED" />
         <entry key="working with variadic functions" value="NOT_PASSED" />
+        <entry key="working_with_json_in_go" value="NOT_PASSED" />
         <entry key="wrapping long lines" value="NOT_PASSED" />
       </map>
     </option>
