@@ -29,6 +29,9 @@
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="ChangesView.SetDefault">
+    <keyboard-shortcut first-keystroke="ctrl alt period" />
+  </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="meta alt w" />
   </action>
@@ -56,6 +59,9 @@
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.NextChange">
     <keyboard-shortcut first-keystroke="ctrl end" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
   <action id="Diff.ShowDiff">
     <keyboard-shortcut first-keystroke="meta d" />
@@ -124,6 +130,9 @@
   <action id="PreviousEditorTab">
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
@@ -135,9 +144,15 @@
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
+  <action id="Refresh">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="alt f5" />
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl f10" />
@@ -160,8 +175,8 @@
   </action>
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowBookmarks">
-    <keyboard-shortcut first-keystroke="shift f11" />
     <keyboard-shortcut first-keystroke="ctrl f11" />
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="ctrl x" />
