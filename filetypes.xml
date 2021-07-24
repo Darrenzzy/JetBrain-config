@@ -6,7 +6,6 @@
       <mapping ext="protobak" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
-      <mapping ext="proto" type="PROTO" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="proto" approved="true" type="protobuf" />
       <removed_mapping ext="psd" approved="true" type="Image" />
