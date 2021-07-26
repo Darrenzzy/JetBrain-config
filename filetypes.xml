@@ -1,0 +1,17 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="protobac" type="PLAIN_TEXT" />
+      <mapping ext="protobak" type="PLAIN_TEXT" />
+      <mapping ext="text" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
+      <mapping ext="proto" type="protobuf" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="proto" approved="true" type="protobuf" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping ext="sql" approved="true" type="SQL" />
+      <mapping ext="main.kts" type="Kotlin" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,0 +1,6 @@
+<application>
+  <component name="DlvSettings">
+    <option name="rebuildTransitivePackages" value="false" />
+    <option name="stacktraceDepth" value="500" />
+  </component>
+</application>
