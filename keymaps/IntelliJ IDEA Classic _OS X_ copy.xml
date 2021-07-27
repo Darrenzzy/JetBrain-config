@@ -26,6 +26,9 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="meta 9" />
   </action>
+  <action id="AddToFavoritesPopup">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+  </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
