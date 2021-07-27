@@ -2,6 +2,9 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="access scopes list" />
+      <item value="extra" />
+      <item value="render Error" />
       <item value="deftree" />
       <item value="Invoke" />
       <item value="faild" />
@@ -22,8 +25,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="21" />
-        <entry key="ENGLISH" value="21" />
+        <entry key="CHINESE" value="23" />
+        <entry key="ENGLISH" value="24" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
@@ -31,6 +34,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1626490324729" />
+    <option name="lastTrimTime" value="1627350756929" />
   </component>
 </application>
