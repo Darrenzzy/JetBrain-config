@@ -26,9 +26,7 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="meta 9" />
   </action>
-  <action id="AddToFavoritesPopup">
-    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
-  </action>
+  <action id="AddToFavoritesPopup" />
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
@@ -191,6 +189,10 @@
   </action>
   <action id="RunClass" />
   <action id="SaveAll" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
+    <keyboard-shortcut first-keystroke="shift meta g" />
+  </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
@@ -257,6 +259,9 @@
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
   <action id="context.save" />
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+  </action>
   <action id="hg4idea.UpdateToRevision">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
