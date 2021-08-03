@@ -82,6 +82,12 @@
     <keyboard-shortcut first-keystroke="shift alt o" />
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
+  <action id="EditorCodeBlockEndWithSelection">
+    <keyboard-shortcut first-keystroke="ctrl meta close_bracket" />
+  </action>
+  <action id="EditorCodeBlockStartWithSelection">
+    <keyboard-shortcut first-keystroke="ctrl meta open_bracket" />
+  </action>
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
