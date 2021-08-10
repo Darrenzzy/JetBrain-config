@@ -2,6 +2,9 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="segment" />
+      <item value="second" />
+      <item value="This library supports the parsing and verification as well as the generation and signing of JWTs. Current supported signing algorithms are HMAC SHA, RSA, RSA-PSS, and ECDSA, though hooks are present for adding your own." />
       <item value="Grant" />
       <item value="CREATEPLATFORMUSER" />
       <item value="CreatePlatformUser UpgradePlatformUser FindPlatformUser" />
@@ -34,8 +37,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="32" />
-        <entry key="ENGLISH" value="33" />
+        <entry key="CHINESE" value="35" />
+        <entry key="ENGLISH" value="36" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
@@ -43,6 +46,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1627900106436" />
+    <option name="lastTrimTime" value="1628612208621" />
   </component>
 </application>
