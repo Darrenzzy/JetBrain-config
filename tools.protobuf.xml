@@ -1,0 +1,10 @@
+<application>
+  <component name="ProtobufSettings">
+    <option name="includePaths">
+      <list>
+        <option value="$USER_HOME$/go/src" />
+        <option value="$USER_HOME$/go/src/tenant-sso" />
+      </list>
+    </option>
+  </component>
+</application>
