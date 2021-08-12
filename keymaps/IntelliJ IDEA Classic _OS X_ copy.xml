@@ -6,6 +6,9 @@
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
+  <action id="ActivateEventLogToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta 9" />
+  </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFileTransferToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
@@ -33,6 +36,10 @@
   </action>
   <action id="ChangesView.SetDefault">
     <keyboard-shortcut first-keystroke="ctrl alt period" />
+  </action>
+  <action id="ChangesView.ShelveSilently" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="shift alt f9" />
@@ -63,6 +70,10 @@
   </action>
   <action id="CopyAsRichText">
     <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="CopyElement">
+    <keyboard-shortcut first-keystroke="f5" />
+    <keyboard-shortcut first-keystroke="ctrl alt f5" />
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
@@ -155,6 +166,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
   <action id="MethodDown" />
+  <action id="MethodHierarchy" />
+  <action id="MethodHierarchy.BaseOnThisMethod" />
   <action id="NextDiff" />
   <action id="NextEditorTab">
     <keyboard-shortcut first-keystroke="ctrl end" />
