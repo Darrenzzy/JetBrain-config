@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Combined" />
       <item value="Issue" />
       <item value="Inject" />
       <item value="regex" />
@@ -40,8 +41,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="37" />
-        <entry key="ENGLISH" value="38" />
+        <entry key="CHINESE" value="38" />
+        <entry key="ENGLISH" value="39" />
         <entry key="ICELANDIC" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
