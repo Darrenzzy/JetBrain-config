@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Encode Caller" />
+      <item value="Encode Duration" />
       <item value="Should sets this CheckedEntry's CheckWriteAction, which controls whether a Core will panic or fatal after writing this log entry. Like AddCore, it's safe to call on nil CheckedEntry references." />
       <item value="Development puts the logger in development mode, which makes DPanic-level logs panic instead of simply logging an error." />
       <item value="AddCallerSkip increases the number of callers skipped by caller annotation (as enabled by the AddCaller option). When building wrappers around the Logger and SugaredLogger, supplying this Option prevents zap from always reporting the wrapper code as the caller." />
@@ -46,8 +48,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="46" />
-        <entry key="ENGLISH" value="47" />
+        <entry key="CHINESE" value="48" />
+        <entry key="ENGLISH" value="49" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
