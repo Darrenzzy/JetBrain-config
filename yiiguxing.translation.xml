@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="AddCallerSkip increases the number of callers skipped by caller annotation (as enabled by the AddCaller option). When building wrappers around the Logger and SugaredLogger, supplying this Option prevents zap from always reporting the wrapper code as the caller." />
       <item value="delegate" />
       <item value="Desugar unwraps a SugaredLogger, exposing the original Logger. Desugaring is quite inexpensive, so it's reasonable for a single application to use both Loggers and SugaredLoggers, converting between them on the boundaries of performance-sensitive code." />
       <item value="Observed Logs" />
@@ -14,7 +15,6 @@
       <item value="Encode Duration" />
       <item value="Should sets this CheckedEntry's CheckWriteAction, which controls whether a Core will panic or fatal after writing this log entry. Like AddCore, it's safe to call on nil CheckedEntry references." />
       <item value="Development puts the logger in development mode, which makes DPanic-level logs panic instead of simply logging an error." />
-      <item value="AddCallerSkip increases the number of callers skipped by caller annotation (as enabled by the AddCaller option). When building wrappers around the Logger and SugaredLogger, supplying this Option prevents zap from always reporting the wrapper code as the caller." />
       <item value="logs are more important than Info, but don't need individual human review." />
       <item value="DPanicLevel logs are particularly important errors. In development the logger panics after writing the message." />
       <item value="impl" />
@@ -55,8 +55,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="56" />
-        <entry key="ENGLISH" value="57" />
+        <entry key="CHINESE" value="57" />
+        <entry key="ENGLISH" value="58" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="ROMANIAN" value="1" />
