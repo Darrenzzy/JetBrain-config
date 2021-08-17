@@ -2,6 +2,10 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="发起授权" />
+      <item value="提出授权" />
+      <item value="作为推送登录识别标志符" />
+      <item value="issue Authorization" />
       <item value="Issue New Token" />
       <item value="reports whether the Unicode code point r is within s." />
       <item value="caller" />
@@ -40,8 +44,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="38" />
-        <entry key="ENGLISH" value="39" />
+        <entry key="CHINESE" value="42" />
+        <entry key="ENGLISH" value="42" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
