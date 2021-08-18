@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Approve" />
       <item value="发起授权" />
       <item value="提出授权" />
       <item value="作为推送登录识别标志符" />
@@ -45,7 +46,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="42" />
-        <entry key="ENGLISH" value="42" />
+        <entry key="ENGLISH" value="43" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
