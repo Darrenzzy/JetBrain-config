@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Apply" />
       <item value="granted" />
       <item value="unsubmitting" />
       <item value="denied" />
@@ -52,8 +53,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="51" />
-        <entry key="ENGLISH" value="52" />
+        <entry key="CHINESE" value="52" />
+        <entry key="ENGLISH" value="53" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
