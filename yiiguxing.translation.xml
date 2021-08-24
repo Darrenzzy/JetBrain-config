@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="ambiguous selector" />
       <item value="joint type" />
       <item value="NODE MANAGERR OLEID" />
       <item value="Apply" />
@@ -51,12 +52,11 @@
       <item value="advance advances the read only request queue kept by the readonly struct. It dequeues the requests until it finds the read only request that has the same context as the given `m`." />
       <item value="read Only" />
       <item value="same" />
-      <item value="advance" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="54" />
-        <entry key="ENGLISH" value="55" />
+        <entry key="CHINESE" value="55" />
+        <entry key="ENGLISH" value="56" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
@@ -64,6 +64,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1629109178043" />
+    <option name="lastTrimTime" value="1629781670891" />
   </component>
 </application>
