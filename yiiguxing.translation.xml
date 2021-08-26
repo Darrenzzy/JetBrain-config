@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="During the call to mapassign_fast64, the key argument was incorrectly treated as a uint64. If the stack was scanned during that call, the only pointer to k was missed, leading to k being collected prematurely." />
       <item value="Greeter" />
       <item value="OTP" />
       <item value="Best" />
@@ -51,12 +52,11 @@
       <item value="Val" />
       <item value="ll 1" />
       <item value="destination" />
-      <item value="Shortcut" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="62" />
-        <entry key="ENGLISH" value="63" />
+        <entry key="CHINESE" value="63" />
+        <entry key="ENGLISH" value="64" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
