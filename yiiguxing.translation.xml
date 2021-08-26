@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Greeter" />
       <item value="OTP" />
       <item value="Best" />
       <item value="accomplish" />
@@ -37,7 +38,6 @@
       <item value="discovery" />
       <item value="Name is the name of the compiled software." />
       <item value="User Detector" />
-      <item value="Greeter" />
       <item value="access scopes list" />
       <item value="extra" />
       <item value="render Error" />
@@ -56,7 +56,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="62" />
-        <entry key="ENGLISH" value="62" />
+        <entry key="ENGLISH" value="63" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
