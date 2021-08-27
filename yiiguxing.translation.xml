@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="WrapAllLabeledExcept wraps each Endpoint field of struct Endpoints with a LabeledMiddleware, which will receive the name of the endpoint. See LabeldMiddleware. See method WrapAllExept for details on excluded functionality." />
       <item value="Will panic. Shouldn't modify m." />
       <item value="An TTLKeyHeap is a min-heap of TTLKeys order by expiration time" />
       <item value="During the call to mapassign_fast64, the key argument was incorrectly treated as a uint64. If the stack was scanned during that call, the only pointer to k was missed, leading to k being collected prematurely." />
@@ -51,12 +52,11 @@
       <item value="Initialization" />
       <item value="internally" />
       <item value="representing" />
-      <item value="Val" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="65" />
-        <entry key="ENGLISH" value="66" />
+        <entry key="CHINESE" value="66" />
+        <entry key="ENGLISH" value="67" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
