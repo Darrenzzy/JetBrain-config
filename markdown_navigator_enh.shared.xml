@@ -3,7 +3,7 @@
     <DiagnosticSettings isTrackReports="true" isCheckFixes="true">
       <diagnostics>
         <diagnosticEntry id="7601" isFixed="false" fixedVersion="" description="" status="" isEap="false" />
-        <diagnosticEntry id="8472" isFixed="false" fixedVersion="" description="" status="" isEap="false" />
+        <diagnosticEntry id="8617" isFixed="false" fixedVersion="" description="" status="" isEap="false" />
         <diagnosticEntry id="8023" isFixed="false" fixedVersion="" description="" status="" isEap="false" />
         <diagnosticEntry id="7600" isFixed="false" fixedVersion="" description="" status="" isEap="false" />
       </diagnostics>
