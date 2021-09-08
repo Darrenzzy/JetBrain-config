@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="TODO returns a non-nil, empty Context. Code should use context.TODO when it's unclear which Context to use or it is not yet available (because the surrounding function has not yet been extended to accept a Context parameter)." />
+      <item value="Background returns a non-nil, empty Context. It is never canceled, has no values, and has no deadline. It is typically used by the main function, initialization, and tests, and as the top-level Context for incoming requests." />
       <item value="Replace" />
       <item value="WrapAllLabeledExcept wraps each Endpoint field of struct Endpoints with a LabeledMiddleware, which will receive the name of the endpoint. See LabeldMiddleware. See method WrapAllExept for details on excluded functionality." />
       <item value="Will panic. Shouldn't modify m." />
@@ -50,13 +52,11 @@
       <item value="Invoke" />
       <item value="faild" />
       <item value="Detector" />
-      <item value="Initialization" />
-      <item value="internally" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="67" />
-        <entry key="ENGLISH" value="68" />
+        <entry key="CHINESE" value="69" />
+        <entry key="ENGLISH" value="70" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
@@ -65,6 +65,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1630562171534" />
+    <option name="lastTrimTime" value="1631088775550" />
   </component>
 </application>
