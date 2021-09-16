@@ -2,6 +2,8 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="白名单" />
+      <item value="Write" />
       <item value="revoke" />
       <item value="Delete records, bean's non-empty fields are conditions" />
       <item value="region" />
@@ -50,13 +52,11 @@
       <item value="User Detector" />
       <item value="access scopes list" />
       <item value="extra" />
-      <item value="render Error" />
-      <item value="deftree" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="72" />
-        <entry key="ENGLISH" value="73" />
+        <entry key="CHINESE" value="74" />
+        <entry key="ENGLISH" value="74" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
