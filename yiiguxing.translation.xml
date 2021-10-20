@@ -2,6 +2,9 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="相同" />
+      <item value="confict In Node" />
+      <item value="conficted" />
       <item value="Is Muti Node Account" />
       <item value="staticize" />
       <item value="motify" />
@@ -49,16 +52,14 @@
       <item value="reports whether the Unicode code point r is within s." />
       <item value="caller" />
       <item value="segment" />
-      <item value="second" />
-      <item value="This library supports the parsing and verification as well as the generation and signing of JWTs. Current supported signing algorithms are HMAC SHA, RSA, RSA-PSS, and ECDSA, though hooks are present for adding your own." />
-      <item value="Grant" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="81" />
-        <entry key="ENGLISH" value="82" />
+        <entry key="CHINESE" value="83" />
+        <entry key="ENGLISH" value="83" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
+        <entry key="LATIN" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
         <entry key="HUNGARIAN" value="1" />
