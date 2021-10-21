@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="白色" />
       <item value="相同" />
       <item value="confict In Node" />
       <item value="conficted" />
@@ -51,12 +52,11 @@
       <item value="Issue New Token" />
       <item value="reports whether the Unicode code point r is within s." />
       <item value="caller" />
-      <item value="segment" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="83" />
-        <entry key="ENGLISH" value="83" />
+        <entry key="CHINESE" value="84" />
+        <entry key="ENGLISH" value="84" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
         <entry key="LATIN" value="1" />
@@ -67,6 +67,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1634289288421" />
+    <option name="lastTrimTime" value="1634808942408" />
   </component>
 </application>
