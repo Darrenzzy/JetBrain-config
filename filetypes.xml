@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="www" type="AUTO_DETECTED" />
       <mapping pattern=".agollo" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="protobac" type="PLAIN_TEXT" />
