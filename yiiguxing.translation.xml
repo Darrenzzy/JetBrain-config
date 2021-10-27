@@ -2,6 +2,7 @@
   <component name="AppStorage">
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="invoke" />
       <item value="Replace" />
       <item value="WrapAllLabeledExcept wraps each Endpoint field of struct Endpoints with a LabeledMiddleware, which will receive the name of the endpoint. See LabeldMiddleware. See method WrapAllExept for details on excluded functionality." />
       <item value="Will panic. Shouldn't modify m." />
@@ -51,12 +52,11 @@
       <item value="faild" />
       <item value="Detector" />
       <item value="Initialization" />
-      <item value="internally" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="67" />
-        <entry key="ENGLISH" value="68" />
+        <entry key="CHINESE" value="68" />
+        <entry key="ENGLISH" value="69" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
@@ -65,6 +65,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1630562171534" />
+    <option name="lastTrimTime" value="1635317765065" />
   </component>
 </application>
