@@ -2,8 +2,12 @@
   <component name="AdvancedSettings">
     <option name="settings">
       <map>
-        <entry key="confirm.rerun.with.termination" value="false" />
+        <entry key="ide.settings.move.mouse.on.default.button" value="true" />
+        <entry key="ide.show.fileType.icon.in.titleBar" value="true" />
         <entry key="ide.usages.page.size" value="1000" />
+        <entry key="localHistory.daysToKeep" value="10" />
+        <entry key="temporary.configurations.limit" value="10" />
+        <entry key="vcs.annotations.preload" value="true" />
       </map>
     </option>
   </component>
