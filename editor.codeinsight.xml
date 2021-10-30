@@ -1,6 +1,7 @@
 <application>
   <component name="Go">
-    <option name="detectGoPackageFromClipboard" value="false" />
+    <option name="showAutoImportVariantsInAutoPopup" value="false" />
     <option name="showDocumentationInParameterPopup" value="true" />
+    <option name="suggestParametersNames" value="false" />
   </component>
 </application>
