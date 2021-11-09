@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Credible" />
       <item value="Audit" />
       <item value="Adds support for EditorConfig files. Define code style settings using EditorConfig files Use coding assistance in EditorConfig files To create an EditorConfig file in a directory, right-click this directory and select New | EditorConfig File. Originally developed by Kirill Glazyrin and Kevin Bell." />
       <item value="Shows errors reported by TSLint in the editor Provides a quick fix (Alt-Enter) and an action (&quot;Fix TSLint Problems&quot;) to fix errors and warnings using TSLint Imports matching code style rules defined in the TSLint configuration to the IDE code style settings" />
@@ -53,12 +54,11 @@
       <item value="Manager Moderation Status" />
       <item value="pending manager moderation" />
       <item value="archived" />
-      <item value="pending" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="89" />
-        <entry key="ENGLISH" value="89" />
+        <entry key="ENGLISH" value="90" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
