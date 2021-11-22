@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="DualStack previously enabled RFC 6555 Fast Fallback support, also known as &quot;Happy Eyeballs&quot;, in which IPv4 is tried soon if IPv6 appears to be misconfigured and hanging. Deprecated: Fast Fallback is enabled by default. To disable, set FallbackDelay to a negative value." />
       <item value="duplicate" />
       <item value="duplicated" />
       <item value="Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. Package cobra is a commander providing a simple interface to create powerful modern CLI interfaces. In addition to providing an interface, Cobra simultaneously provides a controller to organize your application code." />
@@ -53,12 +54,11 @@
       <item value="denied" />
       <item value="standby" />
       <item value="ambiguous" />
-      <item value="ambiguous selector" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="95" />
-        <entry key="ENGLISH" value="96" />
+        <entry key="CHINESE" value="96" />
+        <entry key="ENGLISH" value="97" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
@@ -70,6 +70,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1636958992930" />
+    <option name="lastTrimTime" value="1637557636783" />
   </component>
 </application>
