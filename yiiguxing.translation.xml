@@ -1,11 +1,26 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogHeight" value="290" />
-    <option name="newTranslationDialogX" value="1567" />
-    <option name="newTranslationDialogY" value="578" />
+    <option name="newTranslationDialogX" value="1317" />
+    <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
-      <item value="A plugin for the NerdVision debugging platform. Create non blocking breakpoints to collect data from your application, in production, staging or development. See the captured data directly in your IDE. Allowing you to collect and see production data as your are working on fixes. Manage all tracepoints directly in your IDE." />
+      <item value="DualStack previously enabled RFC 6555 Fast Fallback support, also known as &quot;Happy Eyeballs&quot;, in which IPv4 is tried soon if IPv6 appears to be misconfigured and hanging. Deprecated: Fast Fallback is enabled by default. To disable, set FallbackDelay to a negative value." />
+      <item value="duplicate" />
+      <item value="duplicated" />
+      <item value="Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. Package cobra is a commander providing a simple interface to create powerful modern CLI interfaces. In addition to providing an interface, Cobra simultaneously provides a controller to organize your application code." />
+      <item value="记录" />
+      <item value="延时" />
+      <item value="延时记录" />
+      <item value="Seed uses the provided seed value to initialize the default Source to a deterministic state. If Seed is not called, the generator behaves as if seeded by Seed(1). Seed values that have the same remainder when divided by 2³¹-1 generate the same pseudo-random sequence. Seed, unlike the Rand.Seed method, is safe for concurrent use." />
+      <item value="Intn returns, as an int, a non-negative pseudo-random number in [0,n) from the default Source. It panics if n &lt;= 0." />
+      <item value="Credible" />
+      <item value="Audit" />
+      <item value="Adds support for EditorConfig files. Define code style settings using EditorConfig files Use coding assistance in EditorConfig files To create an EditorConfig file in a directory, right-click this directory and select New | EditorConfig File. Originally developed by Kirill Glazyrin and Kevin Bell." />
+      <item value="Shows errors reported by TSLint in the editor Provides a quick fix (Alt-Enter) and an action (&quot;Fix TSLint Problems&quot;) to fix errors and warnings using TSLint Imports matching code style rules defined in the TSLint configuration to the IDE code style settings" />
+      <item value="The following forms are permitted: -flag -flag=x -flag x non-boolean flags only One or two minus signs may be used; they are equivalent. The last form is not permitted for boolean flags because the meaning of the command cmd -x where is a Unix shell wildcard, will change if there is a file called 0, false, etc. You must use the -flag=false form to turn off a boolean flag. Flag parsing stops just before the first non-flag argument (&quot;-&quot; is a non-flag argument) or after the terminator &quot;--&quot;. Integer flags accept 1234, 0664, 0x1234 and may be negative. Boolean flags may be: 1, 0, t, f, T, F, true, false, TRUE, FALSE, True, False Duration flags accept any input valid for time.ParseDuration. The default set of command-line flags is controlled by top-level functions. The FlagSet type allows one to define independent sets of flags, such as to implement subcommands in a command-line interface. The methods of FlagSet are analogous to the top-level functions for the command-line flag set." />
+      <item value="Define flags using flag.String(), Bool(), Int(), etc. This declares an integer flag, -n, stored in the pointer nFlag, with type int: import &quot;flag&quot; var nFlag = flag.Int(&quot;n&quot;, 1234, &quot;help message for flag n&quot;) If you like, you can bind the flag to a variable using the Var() functions. var flagvar int func init() { flag.IntVar(&amp;flagvar, &quot;flagname&quot;, 1234, &quot;help message for flagname&quot;) } Or you can create custom flags that satisfy the Value interface (with pointer receivers) and couple them to flag parsing by flag.Var(&amp;flagVal, &quot;name&quot;, &quot;help message for flagname&quot;) For such flags, the default value is just the initial value of the variable. After all flags are defined, call flag.Parse() to parse the command line into the defined flags. Flags may then be used directly. If you're using the flags themselves, they are all pointers; if you bind to variables, they're values. fmt.Println(&quot;ip has value &quot;, ip) fmt.Println(&quot;flagvar has value &quot;, flagvar) After parsing, the arguments following the flags are available as the slice flag.Args() or individually as flag.Arg(i). The arguments are indexed from 0 through flag.NArg()-1. Command line flag syntax" />
+      <item value="SIGABRT" />
+      <item value="sigNoteSetup initializes an async-signal-safe note. The current implementation of notes on Darwin is not async-signal-safe, because the functions pthread_mutex_lock, pthread_cond_signal, and pthread_mutex_unlock, called by semawakeup, are not async-signal-safe. There is only one case where we need to wake up a note from a signal handler: the sigsend function. The signal handler code does not require all the features of notes: it does not need to do a timed wait. This is a separate implementation of notes, based on a pipe, that does not support timed waits but is async-signal-safe." />
       <item value="Key Up Gread" />
       <item value="白色" />
       <item value="相同" />
@@ -39,28 +54,13 @@
       <item value="denied" />
       <item value="standby" />
       <item value="ambiguous" />
-      <item value="ambiguous selector" />
-      <item value="joint type" />
-      <item value="NODE MANAGERR OLEID" />
-      <item value="Apply" />
-      <item value="granted" />
-      <item value="unsubmitting" />
-      <item value="Manager Moderation Status" />
-      <item value="pending manager moderation" />
-      <item value="archived" />
-      <item value="pending" />
-      <item value="Approve" />
-      <item value="发起授权" />
-      <item value="提出授权" />
-      <item value="作为推送登录识别标志符" />
-      <item value="issue Authorization" />
-      <item value="Issue New Token" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="85" />
-        <entry key="ENGLISH" value="85" />
+        <entry key="CHINESE" value="96" />
+        <entry key="ENGLISH" value="97" />
         <entry key="AFRIKAANS" value="1" />
+        <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
         <entry key="LATIN" value="1" />
         <entry key="LITHUANIAN" value="1" />
@@ -70,6 +70,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1636641238352" />
+    <option name="lastTrimTime" value="1637557636783" />
   </component>
 </application>

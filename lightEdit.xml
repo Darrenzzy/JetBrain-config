@@ -13,9 +13,5 @@
         <option value="*.yml" />
       </list>
     </option>
-    <option name="frameInfo">
-      <frame x="10" y="45" width="1260" height="735" />
-    </option>
-    <option name="preferredMode" value="LightEdit" />
   </component>
 </application>
