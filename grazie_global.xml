@@ -1,14 +1,75 @@
 <application>
   <component name="GraziConfig">
+    <option name="userEnabledRules">
+      <set>
+        <option value="LanguageTool.EN.CANT_HELP_BUT" />
+        <option value="LanguageTool.EN.PREVENT_FROM" />
+        <option value="LanguageTool.EN.WHITESPACE_PARAGRAPH_BEGIN" />
+        <option value="LanguageTool.EN.AGREEMENT_THEIR_HIS" />
+        <option value="LanguageTool.EN.METRIC_UNITS_EN_US" />
+        <option value="LanguageTool.EN.ALSO_SENT_END" />
+        <option value="LanguageTool.EN.CHILDISH_LANGUAGE" />
+        <option value="LanguageTool.EN.BARE_INFINITIVE_VERB_OF_PERCEPTION_SEE_PRP_VBZ" />
+        <option value="LanguageTool.EN.TOO_LONG_SENTENCE" />
+        <option value="LanguageTool.EN.OFF_HAND_COMPOUND" />
+        <option value="LanguageTool.EN.THREE_NN" />
+        <option value="LanguageTool.EN.PASSIONATE_BY_ABOUT_2" />
+        <option value="LanguageTool.EN.HOPEFULLY" />
+        <option value="LanguageTool.EN.EITHER_NOR" />
+        <option value="LanguageTool.EN.TOO_LONG_PARAGRAPH" />
+        <option value="LanguageTool.EN.OCCASION_TRANSITIVE_VERB_VERY_FORMAL" />
+        <option value="LanguageTool.EN.E_PRIME_STRICT" />
+        <option value="LanguageTool.EN.DIVIDE_IN_INTO" />
+        <option value="LanguageTool.EN.LOOK_FORWARD_NOT_FOLLOWED_BY_TO" />
+        <option value="LanguageTool.EN.PPL" />
+        <option value="LanguageTool.EN.EN_SPECIFIC_CASE" />
+        <option value="LanguageTool.EN.TO_DO_HYPHEN" />
+        <option value="LanguageTool.EN.WHITESPACE_PARAGRAPH" />
+        <option value="LanguageTool.EN.WILL_ALLOW" />
+        <option value="LanguageTool.EN.ID_CASING" />
+        <option value="LanguageTool.EN.RUDE_SARCASTIC" />
+        <option value="LanguageTool.EN.ADVERB_WORD_ORDER_10_TEMP" />
+        <option value="LanguageTool.EN.WAITING_MY_PATIENT" />
+        <option value="LanguageTool.EN.E_PRIME_LOOSE" />
+        <option value="LanguageTool.EN.And" />
+        <option value="LanguageTool.EN.PASSIVE_VOICE" />
+        <option value="LanguageTool.EN.ARTICLE_MISSING" />
+        <option value="LanguageTool.EN.USED_FOR_VBG" />
+        <option value="LanguageTool.EN.DOES_XX_CAN" />
+        <option value="LanguageTool.EN.READABILITY_RULE_SIMPLE" />
+        <option value="LanguageTool.EN.FILE_EXTENSIONS_CASE" />
+        <option value="LanguageTool.EN.SERIAL_COMMA_OFF" />
+        <option value="LanguageTool.EN.TRYNA" />
+        <option value="LanguageTool.EN.SENT_START_NUM" />
+        <option value="LanguageTool.EN.SV_AGREEMENT_NEG_QS" />
+        <option value="LanguageTool.EN.HAPPY_CHRISTMAS" />
+        <option value="LanguageTool.EN.POPULAR_AMONG_WITH" />
+        <option value="LanguageTool.EN.BARE_INFINITIVE_CAUSATIVE_VERB_MAKE_PRP_VBZ" />
+        <option value="LanguageTool.EN.EMPTY_LINE" />
+        <option value="LanguageTool.EN.ENGLISH_WORD_REPEAT_BEGINNING_RULE" />
+        <option value="LanguageTool.EN.READABILITY_RULE_DIFFICULT" />
+        <option value="LanguageTool.EN.PARAGRAPH_REPEAT_BEGINNING_RULE" />
+        <option value="LanguageTool.EN.SENTENCE_FRAGMENT" />
+        <option value="LanguageTool.EN.UPPERCASE_SENTENCE_START" />
+        <option value="LanguageTool.EN.SERIAL_COMMA_ON" />
+        <option value="LanguageTool.EN.BE_PART_AGREEMENT_2" />
+        <option value="LanguageTool.EN.GONNA_TEMP" />
+      </set>
+    </option>
     <option name="detectionContext">
       <State>
         <option name="disabled">
           <set>
-            <option value="JAPANESE" />
             <option value="CHINESE" />
+            <option value="JAPANESE" />
           </set>
         </option>
       </State>
+    </option>
+    <option name="checkingContext">
+      <CheckingContext>
+        <option name="isCheckInStringLiteralsEnabled" value="true" />
+      </CheckingContext>
     </option>
   </component>
 </application>

@@ -1,3 +1,12 @@
 <profile version="1.0">
   <option name="myName" value="Project Default copy" />
+  <inspection_tool class="GoDeferInLoop" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="GoExportedElementShouldHaveComment" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="GoNilness" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="GoUnnecessarilyExportedIdentifiers" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="GoUnreachableCode" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LongLine" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ProblematicWhitespace" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="TodoComment" enabled="true" level="WARNING" enabled_by_default="true" />
 </profile>

@@ -251,6 +251,9 @@
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.ShowDiffWithLocal">
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
+  </action>
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
