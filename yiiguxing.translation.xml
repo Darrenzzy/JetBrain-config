@@ -4,6 +4,12 @@
     <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="stored" />
+      <item value="guarantee" />
+      <item value="element-immutable" />
+      <item value="Strings could be viewed as element-immutable byte slices. With the guarantee that the content of (a.k.a. the bytes stored in) a string will never be modified, any function can safely use the content of the string without worrying about the content of the string being modified elsewhere." />
+      <item value="Conversions between strings and byte slices" />
+      <item value="Conversions" />
       <item value="Metadata is our way of representing request headers internally. They're used at the RPC level and translate back and forth from Transport headers." />
       <item value="WithValue returns a copy of parent in which the value associated with key is val. Use context Values only for request-scoped data that transits processes and APIs, not for passing optional parameters to functions. The provided key must be comparable and should not be of type string or any other built-in type to avoid collisions between packages using context. Users of WithValue should define their own types for keys. To avoid allocating when assigning to an interface{}, context keys often have concrete type struct{}. Alternatively, exported context key variables' static type should be a pointer or interface." />
       <item value="retrieve Worker" />
@@ -48,17 +54,11 @@
       <item value="revoke" />
       <item value="Delete records, bean's non-empty fields are conditions" />
       <item value="region" />
-      <item value="TODO returns a non-nil, empty Context. Code should use context.TODO when it's unclear which Context to use or it is not yet available (because the surrounding function has not yet been extended to accept a Context parameter)." />
-      <item value="Replace" />
-      <item value="WrapAllLabeledExcept wraps each Endpoint field of struct Endpoints with a LabeledMiddleware, which will receive the name of the endpoint. See LabeldMiddleware. See method WrapAllExept for details on excluded functionality." />
-      <item value="Will panic. Shouldn't modify m." />
-      <item value="An TTLKeyHeap is a min-heap of TTLKeys order by expiration time" />
-      <item value="During the call to mapassign_fast64, the key argument was incorrectly treated as a uint64. If the stack was scanned during that call, the only pointer to k was missed, leading to k being collected prematurely." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="104" />
+        <entry key="CHINESE" value="109" />
+        <entry key="ENGLISH" value="110" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1639444218568" />
+    <option name="lastTrimTime" value="1640013756437" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
