@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="The following is the implementation of the `Equal` function in the `bytes` standard package. In the implementation, the two conversions both don't duplicate the byte elements of the corresponding arguments." />
+      <item value="A byte-slice-to-string conversion appearing as a comparison operand doesn't allocate" />
       <item value="neglectable" />
       <item value="If we use the official standard Go compiler to build the following code, the performance difference between the function `f` and the function `g` is neglectable. The reason is the `[]byte(s)` conversion used in the function `f` doesn't make allocations." />
       <item value="A string-to-byte-slice conversion following the `range` keyword doesn't allocate" />
@@ -52,13 +54,11 @@
       <item value="staticize" />
       <item value="motify" />
       <item value="Modify" />
-      <item value="匹配" />
-      <item value="Much" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="118" />
-        <entry key="ENGLISH" value="119" />
+        <entry key="CHINESE" value="120" />
+        <entry key="ENGLISH" value="121" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
