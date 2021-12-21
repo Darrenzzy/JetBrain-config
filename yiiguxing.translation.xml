@@ -4,6 +4,14 @@
     <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="This optimization also works if the key presents as a struct or array composite literal form: `T1{... Tn{..., string(key), ...} ...}`, where `Tx` is either a struct type or an array type. For example, the conversion `string(key)` in the following code doesn't do duplications, too." />
+      <item value="Note: this optimization is not made for map element modification statements. This could be proved by the following example, in which the conversion `string(key)` in the `get` function doesn't allocate, but the two conversions in the other two functions do allocate." />
+      <item value="A byte-slice-to-string conversion appearing as the index key of a map element retrieval expression doesn't allocate" />
+      <item value="bytes-2-string-as-map-retrieval-key" />
+      <item value="The performance differences between the two functions might be removed since a future Go toolchain version." />
+      <item value="verbose" />
+      <item value="Parallel signals that this test is to be run in parallel with (and only with) other parallel tests. When a test is run multiple times due to use of -test.count or -test.cpu, multiple instances of a single test never run in parallel with each other." />
+      <item value="This optimization leads to the `verbose` function is more efficient than the `clean` function shown in the following code (as of the official standard Go compiler v1.17):" />
       <item value="The following is the implementation of the `Equal` function in the `bytes` standard package. In the implementation, the two conversions both don't duplicate the byte elements of the corresponding arguments." />
       <item value="A byte-slice-to-string conversion appearing as a comparison operand doesn't allocate" />
       <item value="neglectable" />
@@ -46,19 +54,11 @@
       <item value="SIGABRT" />
       <item value="sigNoteSetup initializes an async-signal-safe note. The current implementation of notes on Darwin is not async-signal-safe, because the functions pthread_mutex_lock, pthread_cond_signal, and pthread_mutex_unlock, called by semawakeup, are not async-signal-safe. There is only one case where we need to wake up a note from a signal handler: the sigsend function. The signal handler code does not require all the features of notes: it does not need to do a timed wait. This is a separate implementation of notes, based on a pipe, that does not support timed waits but is async-signal-safe." />
       <item value="Key Up Gread" />
-      <item value="白色" />
-      <item value="相同" />
-      <item value="confict In Node" />
-      <item value="conficted" />
-      <item value="Is Muti Node Account" />
-      <item value="staticize" />
-      <item value="motify" />
-      <item value="Modify" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="120" />
-        <entry key="ENGLISH" value="121" />
+        <entry key="CHINESE" value="128" />
+        <entry key="ENGLISH" value="129" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
