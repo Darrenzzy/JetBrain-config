@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="unintended" />
       <item value="In the following code, using array values as the map keys is more performant than using strings as the map keys, because the former way doesn't allocate." />
       <item value="In this section, some examples will be provided to show how to save allocations under some situations. In the following example, the function `f` is more efficient than the function `g`. The reason is the former makes one allocation, whereas the latter makes two." />
       <item value="String and byte slice operations often involve memory allocations. Many of the allocations are short-lived. To make program run efficiently, we should try to allocate less short-lived memory blocks." />
@@ -53,12 +54,11 @@
       <item value="A byte-slice-to-string conversion appearing as a comparison operand doesn't allocate" />
       <item value="neglectable" />
       <item value="If we use the official standard Go compiler to build the following code, the performance difference between the function `f` and the function `g` is neglectable. The reason is the `[]byte(s)` conversion used in the function `f` doesn't make allocations." />
-      <item value="A string-to-byte-slice conversion following the `range` keyword doesn't allocate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="165" />
-        <entry key="ENGLISH" value="166" />
+        <entry key="CHINESE" value="166" />
+        <entry key="ENGLISH" value="167" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FILIPINO" value="1" />
