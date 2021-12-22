@@ -133,6 +133,7 @@
     <keyboard-shortcut first-keystroke="shift meta alt a" />
   </action>
   <action id="GotoBookmark0" />
+  <action id="GotoBookmark3" />
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta h" />
     <keyboard-shortcut first-keystroke="meta l" />
@@ -236,8 +237,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="StepInto">
-    <keyboard-shortcut first-keystroke="alt 3" />
     <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="ctrl 3" />
   </action>
   <action id="StepOut">
     <keyboard-shortcut first-keystroke="shift f8" />
