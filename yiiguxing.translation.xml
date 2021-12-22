@@ -4,6 +4,40 @@
     <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="In this section, some examples will be provided to show how to save allocations under some situations. In the following example, the function `f` is more efficient than the function `g`. The reason is the former makes one allocation, whereas the latter makes two." />
+      <item value="String and byte slice operations often involve memory allocations. Many of the allocations are short-lived. To make program run efficiently, we should try to allocate less short-lived memory blocks." />
+      <item value="Avoid allocations if possible" />
+      <item value="In the one-line way, the conversion `[]byte(str)` will duplicate the underlying of the string, which is unnecessarily. In the verbose way, the elements within `newByteSlice[len(str):]` will be unnecessarily zeroed in the `make` call." />
+      <item value="Generally, the verbose way is more peformant than the one-line append way, unless the length of the byte slice is comparatively much larger than the string. Sadly, currently (Go toolchain v1.17), [there is not an extreme performant way](https:github.comgolanggoissues43429) to do the merge." />
+      <item value="Way 2 (the verbose way):" />
+      <item value="Sometimes, we need to merge a string (`str`) a byte slice (`bs`) into a byte slice. There are two ways to achieve this goal. Way 1 (the one-line way):" />
+      <item value="Merge a string and a byte slice into a new byte slice" />
+      <item value="We could also modify the byte elements of the slice as needed before converting the slice to the final string. This is a benefit comparing to the other two ways." />
+      <item value="The benchmark results (when the length of `s` is 17):" />
+      <item value="The benchmark results (when the length of `s` is 16):" />
+      <item value="There is actually a third way to concatenate strings: build a byte slice then convert it to a string. As this way often needs two allocations, it is slower than the above introduced two ways. However, if the final produced string is small ([not limited to 32 bytes](0.4-stacks and escape analysis.mdthreshold-sizes)), we could manage to make one allocation happen on stack so that this way might a little faster (and flexible) than the above introduced two ways. In the following benchmark code, if the length of the package-level string `s` is not larger than 16, then the `Concat_WithBytes` way is more performant than the `Concat_WithPlus` way; otherwise, the `Concat_WithBytes` way is slower." />
+      <item value="Use byte slice to concatenate strings" />
+      <item value="The `strings.Builder` way could be also to build a string from unknown number (at coding time) of strings and byte slices. Somtimes, it might be impossible or inconvenient to calculate the length of the final built string. In such cases, the underlying byte slice used by a `strings.Builder` value will grow when needed. It might grow to a capabity which is larger than the length of the final built string. As the final built string will reuse the memory block of the underlying byte slice, there will be some memory wasted in the end. So, if possible, we should determine the length of the final built string in advance and call the `Grow` method of a `strings.Builder` value to grow its underlying byte slice to that length in one step." />
+      <item value="The `strings.Builder` way might waste some memory" />
+      <item value="So if it is possbile to do the whole concatenation in one statement, genreally, we should use the `+` operator to concatenate strings for its simpliticy and great performance." />
+      <item value="The benchmark results:" />
+      <item value="However, for [a runtime implementaion imperfection](https:go-review.googlesource.comcgo+343470) (in Go 1.151.161.17), sometimes the `+` operator way might be a little slower than the `strings.Builder` way. This imperfection has been [fixed since Go 1.18](https:go-review.googlesource.comcgo+359477)." />
+      <item value="In theory, if it is possbile to do the whole concatenation in one statement, then generally the `+` operator way is more performant than the `strings.Builder` way. The reason is that the `strings.Builder` way calls the `make` function to allocate enough bytes for coming string concatenations and the `make` call zeros those bytes, which is unnecessarily." />
+      <item value="The `+` operator could be used to concatenate multiple strings in one statement. Every of the concatenated strings must present as an individual expression at coding time. If it is impossible to use the `+` operator to concatenate some strings in one statement, then it is more efficient to use `strings.Builder` to concatenate them. The result string of using `strings.Builder` will be always allocated on heap. On the other hand, by using the `+` operator, the result string might be allocated on stack if the length of the result string is small (not larger than 32) and the result string doesn't escape." />
+      <item value="There are two principal ways to effectively concatenate strings in Go: use the `+` operator and use `strings.Builder`. Each way has its own advantages and drawbacks." />
+      <item value="Efficient ways to concatenate strings" />
+      <item value="The following benchmark code also proves this fact." />
+      <item value="For example, in the following program, the function `g` needs 3 heap allocations, but the function `f` needs none. The only differences between the two functions are the lengths of the involved byte slice and strings." />
+      <item value="In fact, recall that the example in the last section uses a byte slice with 33 bytes, the reason is to avoid allocating the string concatenation operands on stack." />
+      <item value="The byte elements of the result of a conversion between string and byte slice will be always allocated on heap the number of the elements is larger than 32" />
+      <item value="And please note that, this optimization is some unintended. It might be not supported any more since a future Go toolchain version." />
+      <item value="The verbose way actually has a drawback: simetimes it will allocate more memory than the normal way. If the first byte of a string operand (assume it is `s`) is known (at coding time), for example ``, then we could avoid this drawback by implementing the verbose way as `... + &quot;&quot; + s[1:] + ...`." />
+      <item value="Please note that, currently (Go toolchain v1.17), this optimization is only useful for byte slices with lengths larger than 32. If we change the length of the string `s` to 32 (by declaring it with `var s = []byte{31: 'x'}`), then the performance difference between the functions `f` and `g` will become neglectable. Please read the next section for the reason." />
+      <item value="allocate" />
+      <item value="oprand" />
+      <item value="In the following example, the function `f` (the verbose one) is much more efficient than the function `g` for most cases (as of the Go toolchain v1.17)." />
+      <item value="A byte-slice-to-string conversion appearing as an oprand in a string concatenation expression doesn't allocate if at least one of concatenated strings is a non-blank string constant" />
+      <item value="So if the entries of a map are seldom deleted but the elements of the map are modified frequently, it is best to use a pointer type as the map element type." />
       <item value="dialOptions configure a Dial call. dialOptions are set by the DialOption values passed to Dial." />
       <item value="This optimization leads to an interesting case. In the following code snippet, the function `modify1` makes one allocation but the function `modify2` makes none, so the function `modify1` is more performant than the function `modify2`. The reason could be easierly found out from their respective equivalent forms. The `string(key)` used in the function `modify2` only appears in a map element retrieval expression, whereas the `string(key)` used in the function `modify1` should be thought as appearing in a map element modification statement." />
       <item value="This optimization also works if the key presents as a struct or array composite literal form: `T1{... Tn{..., string(key), ...} ...}`, where `Tx` is either a struct type or an array type. For example, the conversion `string(key)` in the following code doesn't do duplications, too." />
@@ -20,46 +54,13 @@
       <item value="If we use the official standard Go compiler to build the following code, the performance difference between the function `f` and the function `g` is neglectable. The reason is the `[]byte(s)` conversion used in the function `f` doesn't make allocations." />
       <item value="A string-to-byte-slice conversion following the `range` keyword doesn't allocate" />
       <item value="In fact, for some situations, the duplications are not necessary. The current standard Go compiler makes several special optimizations to avoid duplications for some simple cases. Such optimizations will be listed below." />
-      <item value="the byte slice content (the byte elements of he the slice) will be duplicated and stored into the result string too (one memory allocation is needed)" />
-      <item value="Similarly, for the same reason, when converting a byte slice to string" />
-      <item value="This means that the string content (the bytes) will be duplicated and stored into the result byte slice (one memory allocation is needed)." />
-      <item value="guarentee" />
-      <item value="To make the guarentee (the bytes stored in a string will never be modified), when converting a string to byte slice, the string and the result byte slice should not share byte elements." />
-      <item value="stored" />
-      <item value="guarantee" />
-      <item value="element-immutable" />
-      <item value="Strings could be viewed as element-immutable byte slices. With the guarantee that the content of (a.k.a. the bytes stored in) a string will never be modified, any function can safely use the content of the string without worrying about the content of the string being modified elsewhere." />
-      <item value="Conversions between strings and byte slices" />
-      <item value="Conversions" />
-      <item value="Metadata is our way of representing request headers internally. They're used at the RPC level and translate back and forth from Transport headers." />
-      <item value="WithValue returns a copy of parent in which the value associated with key is val. Use context Values only for request-scoped data that transits processes and APIs, not for passing optional parameters to functions. The provided key must be comparable and should not be of type string or any other built-in type to avoid collisions between packages using context. Users of WithValue should define their own types for keys. To avoid allocating when assigning to an interface{}, context keys often have concrete type struct{}. Alternatively, exported context key variables' static type should be a pointer or interface." />
-      <item value="retrieve Worker" />
-      <item value="PoolWithFunc accept the tasks from client,it limits the total of goroutines to a given number by recycling goroutines." />
-      <item value="client credentials" />
-      <item value="prepare Request Feature Map" />
-      <item value="The append built-in function appends elements to the end of a slice. If it has sufficient capacity, the destination is resliced to accommodate the new elements. If it does not, a new underlying array will be allocated. Append returns the updated slice. It is therefore necessary to store the result of append, often in the variable holding the slice itself: slice = append(slice, elem1, elem2) slice = append(slice, anotherSlice...) As a special case, it is legal to append a string to a byte slice, like this:" />
-      <item value="DualStack previously enabled RFC 6555 Fast Fallback support, also known as &quot;Happy Eyeballs&quot;, in which IPv4 is tried soon if IPv6 appears to be misconfigured and hanging. Deprecated: Fast Fallback is enabled by default. To disable, set FallbackDelay to a negative value." />
-      <item value="duplicate" />
-      <item value="duplicated" />
-      <item value="Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. Package cobra is a commander providing a simple interface to create powerful modern CLI interfaces. In addition to providing an interface, Cobra simultaneously provides a controller to organize your application code." />
-      <item value="记录" />
-      <item value="延时" />
-      <item value="延时记录" />
-      <item value="Seed uses the provided seed value to initialize the default Source to a deterministic state. If Seed is not called, the generator behaves as if seeded by Seed(1). Seed values that have the same remainder when divided by 2³¹-1 generate the same pseudo-random sequence. Seed, unlike the Rand.Seed method, is safe for concurrent use." />
-      <item value="Intn returns, as an int, a non-negative pseudo-random number in [0,n) from the default Source. It panics if n &lt;= 0." />
-      <item value="Credible" />
-      <item value="Audit" />
-      <item value="Adds support for EditorConfig files. Define code style settings using EditorConfig files Use coding assistance in EditorConfig files To create an EditorConfig file in a directory, right-click this directory and select New | EditorConfig File. Originally developed by Kirill Glazyrin and Kevin Bell." />
-      <item value="Shows errors reported by TSLint in the editor Provides a quick fix (Alt-Enter) and an action (&quot;Fix TSLint Problems&quot;) to fix errors and warnings using TSLint Imports matching code style rules defined in the TSLint configuration to the IDE code style settings" />
-      <item value="The following forms are permitted: -flag -flag=x -flag x non-boolean flags only One or two minus signs may be used; they are equivalent. The last form is not permitted for boolean flags because the meaning of the command cmd -x where is a Unix shell wildcard, will change if there is a file called 0, false, etc. You must use the -flag=false form to turn off a boolean flag. Flag parsing stops just before the first non-flag argument (&quot;-&quot; is a non-flag argument) or after the terminator &quot;--&quot;. Integer flags accept 1234, 0664, 0x1234 and may be negative. Boolean flags may be: 1, 0, t, f, T, F, true, false, TRUE, FALSE, True, False Duration flags accept any input valid for time.ParseDuration. The default set of command-line flags is controlled by top-level functions. The FlagSet type allows one to define independent sets of flags, such as to implement subcommands in a command-line interface. The methods of FlagSet are analogous to the top-level functions for the command-line flag set." />
-      <item value="Define flags using flag.String(), Bool(), Int(), etc. This declares an integer flag, -n, stored in the pointer nFlag, with type int: import &quot;flag&quot; var nFlag = flag.Int(&quot;n&quot;, 1234, &quot;help message for flag n&quot;) If you like, you can bind the flag to a variable using the Var() functions. var flagvar int func init() { flag.IntVar(&amp;flagvar, &quot;flagname&quot;, 1234, &quot;help message for flagname&quot;) } Or you can create custom flags that satisfy the Value interface (with pointer receivers) and couple them to flag parsing by flag.Var(&amp;flagVal, &quot;name&quot;, &quot;help message for flagname&quot;) For such flags, the default value is just the initial value of the variable. After all flags are defined, call flag.Parse() to parse the command line into the defined flags. Flags may then be used directly. If you're using the flags themselves, they are all pointers; if you bind to variables, they're values. fmt.Println(&quot;ip has value &quot;, ip) fmt.Println(&quot;flagvar has value &quot;, flagvar) After parsing, the arguments following the flags are available as the slice flag.Args() or individually as flag.Arg(i). The arguments are indexed from 0 through flag.NArg()-1. Command line flag syntax" />
-      <item value="SIGABRT" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="130" />
-        <entry key="ENGLISH" value="131" />
+        <entry key="CHINESE" value="164" />
+        <entry key="ENGLISH" value="165" />
         <entry key="AFRIKAANS" value="1" />
+        <entry key="DANISH" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
         <entry key="LATIN" value="1" />
