@@ -4,9 +4,14 @@
     <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="MD5All reads all the files in the file tree rooted at root and returns a map from file path to the MD5 sum of the file's contents. If the directory walk fails or any read operation fails, MD5All returns an error." />
+      <item value="WithContext returns a new Group and an associated Context derived from ctx. The derived Context is canceled the first time a function passed to Go returns a non-nil error or the first time Wait returns, whichever occurs first." />
+      <item value="WriteLoop is a helper method that invokes Send every time the passed channel fires. This method blocks until ctx is canceled, so clients probably want to run it in its own goroutine. For typical usage, create a time.Ticker and pass its C channel to this method." />
+      <item value="CloudWatchAPI is an interface that defines the set of Amazon CloudWatch API operations required by CloudWatch." />
+      <item value="Send will fire an API request to CloudWatch with the latest stats for all metrics. It is preferred that the WriteLoop method is used." />
+      <item value="CloudWatch receives metrics observations and forwards them to CloudWatch. Create a CloudWatch object, use it to create metrics, and pass those metrics as dependencies to the components that will use them. To regularly report metrics to CloudWatch, use the WriteLoop helper method." />
       <item value="Go calls the given function in a new goroutine. The first call to return a non-nil error cancels the group; its error will be returned by Wait." />
       <item value="A Group is a collection of goroutines working on subtasks that are part of the same overall task. A zero Group is valid and does not cancel on error." />
-      <item value="WithContext returns a new Group and an associated Context derived from ctx. The derived Context is canceled the first time a function passed to Go returns a non-nil error or the first time Wait returns, whichever occurs first." />
       <item value="Metadata is our way of representing request headers internally. They're used at the RPC level and translate back and forth from Transport headers." />
       <item value="WithValue returns a copy of parent in which the value associated with key is val. Use context Values only for request-scoped data that transits processes and APIs, not for passing optional parameters to functions. The provided key must be comparable and should not be of type string or any other built-in type to avoid collisions between packages using context. Users of WithValue should define their own types for keys. To avoid allocating when assigning to an interface{}, context keys often have concrete type struct{}. Alternatively, exported context key variables' static type should be a pointer or interface." />
       <item value="retrieve Worker" />
@@ -49,16 +54,11 @@
       <item value="白名单" />
       <item value="Write" />
       <item value="revoke" />
-      <item value="Delete records, bean's non-empty fields are conditions" />
-      <item value="region" />
-      <item value="TODO returns a non-nil, empty Context. Code should use context.TODO when it's unclear which Context to use or it is not yet available (because the surrounding function has not yet been extended to accept a Context parameter)." />
-      <item value="Replace" />
-      <item value="WrapAllLabeledExcept wraps each Endpoint field of struct Endpoints with a LabeledMiddleware, which will receive the name of the endpoint. See LabeldMiddleware. See method WrapAllExept for details on excluded functionality." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="107" />
-        <entry key="ENGLISH" value="108" />
+        <entry key="CHINESE" value="113" />
+        <entry key="ENGLISH" value="114" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
