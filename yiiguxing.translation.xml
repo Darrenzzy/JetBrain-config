@@ -4,6 +4,10 @@
     <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="From the following benchmark results, we know the `EqualFold` way is much more performant the `ToLower` comparison way, because the former way doesn't allocate." />
+      <item value="We could also use struct values as the map keys, which should be as performant as using array keys. The third example, which shows the performance difference between two ways of string comparations by ignoring cases." />
+      <item value="The benchmark result:" />
+      <item value="threshold" />
       <item value="unintended" />
       <item value="In the following code, using array values as the map keys is more performant than using strings as the map keys, because the former way doesn't allocate." />
       <item value="In this section, some examples will be provided to show how to save allocations under some situations. In the following example, the function `f` is more efficient than the function `g`. The reason is the former makes one allocation, whereas the latter makes two." />
@@ -50,15 +54,11 @@
       <item value="verbose" />
       <item value="Parallel signals that this test is to be run in parallel with (and only with) other parallel tests. When a test is run multiple times due to use of -test.count or -test.cpu, multiple instances of a single test never run in parallel with each other." />
       <item value="This optimization leads to the `verbose` function is more efficient than the `clean` function shown in the following code (as of the official standard Go compiler v1.17):" />
-      <item value="The following is the implementation of the `Equal` function in the `bytes` standard package. In the implementation, the two conversions both don't duplicate the byte elements of the corresponding arguments." />
-      <item value="A byte-slice-to-string conversion appearing as a comparison operand doesn't allocate" />
-      <item value="neglectable" />
-      <item value="If we use the official standard Go compiler to build the following code, the performance difference between the function `f` and the function `g` is neglectable. The reason is the `[]byte(s)` conversion used in the function `f` doesn't make allocations." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="166" />
-        <entry key="ENGLISH" value="167" />
+        <entry key="CHINESE" value="170" />
+        <entry key="ENGLISH" value="171" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -71,7 +71,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1640013756437" />
+    <option name="lastTrimTime" value="1640614489890" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
