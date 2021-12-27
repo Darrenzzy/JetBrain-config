@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="!evalphobia! stored the last executed query on this session beforeSQLExec func(string, ...interface{})" />
+      <item value="Session keep a pointer to sql.DB and provides all execution of all kind of database operations." />
       <item value="MD5All reads all the files in the file tree rooted at root and returns a map from file path to the MD5 sum of the file's contents. If the directory walk fails or any read operation fails, MD5All returns an error." />
       <item value="WithContext returns a new Group and an associated Context derived from ctx. The derived Context is canceled the first time a function passed to Go returns a non-nil error or the first time Wait returns, whichever occurs first." />
       <item value="WriteLoop is a helper method that invokes Send every time the passed channel fires. This method blocks until ctx is canceled, so clients probably want to run it in its own goroutine. For typical usage, create a time.Ticker and pass its C channel to this method." />
@@ -52,13 +54,11 @@
       <item value="Background returns a non-nil, empty Context. It is never canceled, has no values, and has no deadline. It is typically used by the main function, initialization, and tests, and as the top-level Context for incoming requests." />
       <item value="TODO returns a non-nil, empty Context. Code should use context.TODO when it's unclear which Context to use or it is not yet available (because the surrounding function has not yet been extended to accept a Context parameter)" />
       <item value="白名单" />
-      <item value="Write" />
-      <item value="revoke" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="113" />
-        <entry key="ENGLISH" value="114" />
+        <entry key="CHINESE" value="115" />
+        <entry key="ENGLISH" value="116" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1639980879788" />
+    <option name="lastTrimTime" value="1640567822783" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
