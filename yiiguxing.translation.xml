@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="136" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="From the benchmark results, we could find that the `BytesWriter` way is much more performant than the general `io.Writer` way, because the former way doesn't allocate (execpt the single buffer allocation). Please note, there is a type in the standard package, `bufio.Writer`, which acts like the `BytesWriter` type. Generally, we should use that type instead." />
+      <item value="The standard `io.Writer` only has one method: `Write([]byte) (int, error)`. When a string needs to be written, it must be converted to a byte slice before being passed to the `Write` method. This is quite inefficient. In the following code, a `BytesWriter` type is implemented to support writing strings without converting the strings to byte slices." />
       <item value="From the following benchmark results, we know the `EqualFold` way is much more performant the `ToLower` comparison way, because the former way doesn't allocate." />
       <item value="We could also use struct values as the map keys, which should be as performant as using array keys. The third example, which shows the performance difference between two ways of string comparations by ignoring cases." />
       <item value="The benchmark result:" />
@@ -52,13 +54,11 @@
       <item value="bytes-2-string-as-map-retrieval-key" />
       <item value="The performance differences between the two functions might be removed since a future Go toolchain version." />
       <item value="verbose" />
-      <item value="Parallel signals that this test is to be run in parallel with (and only with) other parallel tests. When a test is run multiple times due to use of -test.count or -test.cpu, multiple instances of a single test never run in parallel with each other." />
-      <item value="This optimization leads to the `verbose` function is more efficient than the `clean` function shown in the following code (as of the official standard Go compiler v1.17):" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="170" />
-        <entry key="ENGLISH" value="171" />
+        <entry key="CHINESE" value="172" />
+        <entry key="ENGLISH" value="173" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="DANISH" value="1" />
         <entry key="FILIPINO" value="1" />
