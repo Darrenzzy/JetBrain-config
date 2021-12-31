@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="关系" />
       <item value="Async" />
       <item value="AddUint64 atomically adds delta to addr and returns the new value. To subtract a signed positive constant value c from x, do AddUint64(&amp;x, ^uint64(c-1))." />
       <item value="According to E-Prime, avoiding the use of the stative verb 'to be' makes the communication clearer, more accurate, and less dogmatic. Use an alternative verb. " />
@@ -53,11 +54,10 @@
       <item value="Is Muti Node Account" />
       <item value="staticize" />
       <item value="motify" />
-      <item value="Modify" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="119" />
+        <entry key="CHINESE" value="120" />
         <entry key="ENGLISH" value="120" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
