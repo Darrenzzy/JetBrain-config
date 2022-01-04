@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="adapter" />
       <item value="transport" />
       <item value="传输" />
       <item value="运输" />
@@ -53,12 +54,11 @@
       <item value="Key Up Gread" />
       <item value="白色" />
       <item value="相同" />
-      <item value="confict In Node" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="123" />
-        <entry key="ENGLISH" value="123" />
+        <entry key="ENGLISH" value="124" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
