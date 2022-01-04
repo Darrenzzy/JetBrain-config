@@ -1,9 +1,12 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogX" value="494" />
+    <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="transport" />
+      <item value="传输" />
+      <item value="运输" />
       <item value="The package name determines the name of the directories that truss creates for `package permission;` truss will create the directory &quot;permission-service&quot;" />
       <item value="关系" />
       <item value="Async" />
@@ -51,14 +54,11 @@
       <item value="白色" />
       <item value="相同" />
       <item value="confict In Node" />
-      <item value="conficted" />
-      <item value="Is Muti Node Account" />
-      <item value="staticize" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="120" />
-        <entry key="ENGLISH" value="121" />
+        <entry key="CHINESE" value="123" />
+        <entry key="ENGLISH" value="123" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
