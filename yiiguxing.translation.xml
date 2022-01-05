@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="float32 &amp; float64 may be not inexact as conditions" />
       <item value="adapter" />
       <item value="transport" />
       <item value="传输" />
@@ -53,12 +54,11 @@
       <item value="sigNoteSetup initializes an async-signal-safe note. The current implementation of notes on Darwin is not async-signal-safe, because the functions pthread_mutex_lock, pthread_cond_signal, and pthread_mutex_unlock, called by semawakeup, are not async-signal-safe. There is only one case where we need to wake up a note from a signal handler: the sigsend function. The signal handler code does not require all the features of notes: it does not need to do a timed wait. This is a separate implementation of notes, based on a pipe, that does not support timed waits but is async-signal-safe." />
       <item value="Key Up Gread" />
       <item value="白色" />
-      <item value="相同" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="123" />
-        <entry key="ENGLISH" value="124" />
+        <entry key="CHINESE" value="124" />
+        <entry key="ENGLISH" value="125" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
