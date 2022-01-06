@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Package builder is a lightweight and fast SQL builder for Go and XORM. Make sure you have installed Go 1.8+ and then:" />
+      <item value="Structs contains various utilities to work with Go (Golang) structs. It was initially used by me to convert a struct into a `map[string]interface{}`. With time I've added other utilities for structs. It's basically a high level package based on primitives from the reflect package. Feel free to add new functions or improve the existing code." />
       <item value="float32 &amp; float64 may be not inexact as conditions" />
       <item value="adapter" />
       <item value="transport" />
@@ -52,13 +54,11 @@
       <item value="Define flags using flag.String(), Bool(), Int(), etc. This declares an integer flag, -n, stored in the pointer nFlag, with type int: import &quot;flag&quot; var nFlag = flag.Int(&quot;n&quot;, 1234, &quot;help message for flag n&quot;) If you like, you can bind the flag to a variable using the Var() functions. var flagvar int func init() { flag.IntVar(&amp;flagvar, &quot;flagname&quot;, 1234, &quot;help message for flagname&quot;) } Or you can create custom flags that satisfy the Value interface (with pointer receivers) and couple them to flag parsing by flag.Var(&amp;flagVal, &quot;name&quot;, &quot;help message for flagname&quot;) For such flags, the default value is just the initial value of the variable. After all flags are defined, call flag.Parse() to parse the command line into the defined flags. Flags may then be used directly. If you're using the flags themselves, they are all pointers; if you bind to variables, they're values. fmt.Println(&quot;ip has value &quot;, ip) fmt.Println(&quot;flagvar has value &quot;, flagvar) After parsing, the arguments following the flags are available as the slice flag.Args() or individually as flag.Arg(i). The arguments are indexed from 0 through flag.NArg()-1. Command line flag syntax" />
       <item value="SIGABRT" />
       <item value="sigNoteSetup initializes an async-signal-safe note. The current implementation of notes on Darwin is not async-signal-safe, because the functions pthread_mutex_lock, pthread_cond_signal, and pthread_mutex_unlock, called by semawakeup, are not async-signal-safe. There is only one case where we need to wake up a note from a signal handler: the sigsend function. The signal handler code does not require all the features of notes: it does not need to do a timed wait. This is a separate implementation of notes, based on a pipe, that does not support timed waits but is async-signal-safe." />
-      <item value="Key Up Gread" />
-      <item value="白色" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="124" />
-        <entry key="ENGLISH" value="125" />
+        <entry key="CHINESE" value="126" />
+        <entry key="ENGLISH" value="127" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
