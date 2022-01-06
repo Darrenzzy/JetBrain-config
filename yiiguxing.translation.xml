@@ -4,6 +4,13 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="The above introduced way works for slices with any comparable element types. It certainly could be used to compare byte slices (which lengths are equal and known at coding time). Meanwhile, there are two other ways to compare byte slices `x` and `y`, even if the lengths of the two byte slices are not known at compile time." />
+      <item value="More ways to compare byte slices" />
+      <item value="The two lines compile okay." />
+      <item value="The following two lines fail to compile." />
+      <item value="In Go, slices are incomparable. But if the elements of two slices are comparable, then there is a way to compare the two slices (since Go version 1.17). Assume the elements of the two slices are identical and their lengths are equal and known at coding time, then we could use the following way to compare the two slices." />
+      <item value="Compare two slices which lengths are equal and known at coding time" />
+      <item value="Comparisons Related" />
       <item value="SearchInts searches for x in a sorted slice of ints and returns the index as specified by Search. The return value is the index to insert x if x is not present (it could be len(a)). The slice must be sorted in ascending order." />
       <item value="Package builder is a lightweight and fast SQL builder for Go and XORM. Make sure you have installed Go 1.8+ and then:" />
       <item value="Structs contains various utilities to work with Go (Golang) structs. It was initially used by me to convert a struct into a `map[string]interface{}`. With time I've added other utilities for structs. It's basically a high level package based on primitives from the reflect package. Feel free to add new functions or improve the existing code." />
@@ -47,18 +54,11 @@
       <item value="延时记录" />
       <item value="Seed uses the provided seed value to initialize the default Source to a deterministic state. If Seed is not called, the generator behaves as if seeded by Seed(1). Seed values that have the same remainder when divided by 2³¹-1 generate the same pseudo-random sequence. Seed, unlike the Rand.Seed method, is safe for concurrent use." />
       <item value="Intn returns, as an int, a non-negative pseudo-random number in [0,n) from the default Source. It panics if n &lt;= 0." />
-      <item value="Credible" />
-      <item value="Audit" />
-      <item value="Adds support for EditorConfig files. Define code style settings using EditorConfig files Use coding assistance in EditorConfig files To create an EditorConfig file in a directory, right-click this directory and select New | EditorConfig File. Originally developed by Kirill Glazyrin and Kevin Bell." />
-      <item value="Shows errors reported by TSLint in the editor Provides a quick fix (Alt-Enter) and an action (&quot;Fix TSLint Problems&quot;) to fix errors and warnings using TSLint Imports matching code style rules defined in the TSLint configuration to the IDE code style settings" />
-      <item value="The following forms are permitted: -flag -flag=x -flag x non-boolean flags only One or two minus signs may be used; they are equivalent. The last form is not permitted for boolean flags because the meaning of the command cmd -x where is a Unix shell wildcard, will change if there is a file called 0, false, etc. You must use the -flag=false form to turn off a boolean flag. Flag parsing stops just before the first non-flag argument (&quot;-&quot; is a non-flag argument) or after the terminator &quot;--&quot;. Integer flags accept 1234, 0664, 0x1234 and may be negative. Boolean flags may be: 1, 0, t, f, T, F, true, false, TRUE, FALSE, True, False Duration flags accept any input valid for time.ParseDuration. The default set of command-line flags is controlled by top-level functions. The FlagSet type allows one to define independent sets of flags, such as to implement subcommands in a command-line interface. The methods of FlagSet are analogous to the top-level functions for the command-line flag set." />
-      <item value="Define flags using flag.String(), Bool(), Int(), etc. This declares an integer flag, -n, stored in the pointer nFlag, with type int: import &quot;flag&quot; var nFlag = flag.Int(&quot;n&quot;, 1234, &quot;help message for flag n&quot;) If you like, you can bind the flag to a variable using the Var() functions. var flagvar int func init() { flag.IntVar(&amp;flagvar, &quot;flagname&quot;, 1234, &quot;help message for flagname&quot;) } Or you can create custom flags that satisfy the Value interface (with pointer receivers) and couple them to flag parsing by flag.Var(&amp;flagVal, &quot;name&quot;, &quot;help message for flagname&quot;) For such flags, the default value is just the initial value of the variable. After all flags are defined, call flag.Parse() to parse the command line into the defined flags. Flags may then be used directly. If you're using the flags themselves, they are all pointers; if you bind to variables, they're values. fmt.Println(&quot;ip has value &quot;, ip) fmt.Println(&quot;flagvar has value &quot;, flagvar) After parsing, the arguments following the flags are available as the slice flag.Args() or individually as flag.Arg(i). The arguments are indexed from 0 through flag.NArg()-1. Command line flag syntax" />
-      <item value="SIGABRT" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="129" />
-        <entry key="ENGLISH" value="130" />
+        <entry key="CHINESE" value="139" />
+        <entry key="ENGLISH" value="140" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
