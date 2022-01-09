@@ -4,6 +4,19 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="For example, the first comparison in the following code results false, but the second one causes a panic." />
+      <item value="When comparing two array values, their elements will be compared one by one. Once two corresponding elements are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced when comparing two interfaces." />
+      <item value="Array values are compared element by element" />
+      <item value="Please try to [avoid putting a zero-size field as the final field of a struct type](1-syntax-and-sanmatics.mdfinal-zero-size-field)." />
+      <item value="Lest the `_` fields waste memory, their types should be zero-size types. For example, the size of the type `Ty` is smaller than the type `Tx` in the following code." />
+      <item value="It is easy, just put an incomparable field in the struct type. For example, the following struct types are all incomparable." />
+      <item value="How to make a struct type incomparable" />
+      <item value="For example, the following program prints three `false`, then panics." />
+      <item value="Comparing two interface values produces a panic if the dynamic type of the two operands are identical and the identical type is an incomparable type" />
+      <item value="Go 1.18 introduces custom generics, so there might be a `slices.Compare` function in future Go versions to compare slices with any comparable element types." />
+      <item value="The two ways have no requirements on the lengths of the two operand byte slices." />
+      <item value="The second way: `string(x) == string(y)`. Due to an optimization made by the official standard Go compiler, no underlying bytes will be duplicated in this way. In fact, the `bytes.Equal` function uses this way to do the comparison." />
+      <item value="The first way: `bytes.Compare(x, y) == 0`." />
       <item value="FormatInt returns the string representation of i in the given base, for 2 &lt;= base &lt;= 36. The result uses the lower-case letters 'a' to 'z' for digit values &gt;= 10." />
       <item value="The above introduced way works for slices with any comparable element types. It certainly could be used to compare byte slices (which lengths are equal and known at coding time). Meanwhile, there are two other ways to compare byte slices `x` and `y`, even if the lengths of the two byte slices are not known at compile time." />
       <item value="More ways to compare byte slices" />
@@ -41,24 +54,11 @@
       <item value="A Group is a collection of goroutines working on subtasks that are part of the same overall task. A zero Group is valid and does not cancel on error." />
       <item value="Metadata is our way of representing request headers internally. They're used at the RPC level and translate back and forth from Transport headers." />
       <item value="WithValue returns a copy of parent in which the value associated with key is val. Use context Values only for request-scoped data that transits processes and APIs, not for passing optional parameters to functions. The provided key must be comparable and should not be of type string or any other built-in type to avoid collisions between packages using context. Users of WithValue should define their own types for keys. To avoid allocating when assigning to an interface{}, context keys often have concrete type struct{}. Alternatively, exported context key variables' static type should be a pointer or interface." />
-      <item value="retrieve Worker" />
-      <item value="PoolWithFunc accept the tasks from client,it limits the total of goroutines to a given number by recycling goroutines." />
-      <item value="client credentials" />
-      <item value="prepare Request Feature Map" />
-      <item value="The append built-in function appends elements to the end of a slice. If it has sufficient capacity, the destination is resliced to accommodate the new elements. If it does not, a new underlying array will be allocated. Append returns the updated slice. It is therefore necessary to store the result of append, often in the variable holding the slice itself: slice = append(slice, elem1, elem2) slice = append(slice, anotherSlice...) As a special case, it is legal to append a string to a byte slice, like this:" />
-      <item value="DualStack previously enabled RFC 6555 Fast Fallback support, also known as &quot;Happy Eyeballs&quot;, in which IPv4 is tried soon if IPv6 appears to be misconfigured and hanging. Deprecated: Fast Fallback is enabled by default. To disable, set FallbackDelay to a negative value." />
-      <item value="duplicate" />
-      <item value="duplicated" />
-      <item value="Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. Package cobra is a commander providing a simple interface to create powerful modern CLI interfaces. In addition to providing an interface, Cobra simultaneously provides a controller to organize your application code." />
-      <item value="记录" />
-      <item value="延时" />
-      <item value="延时记录" />
-      <item value="Seed uses the provided seed value to initialize the default Source to a deterministic state. If Seed is not called, the generator behaves as if seeded by Seed(1). Seed values that have the same remainder when divided by 2³¹-1 generate the same pseudo-random sequence. Seed, unlike the Rand.Seed method, is safe for concurrent use." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="140" />
-        <entry key="ENGLISH" value="141" />
+        <entry key="CHINESE" value="153" />
+        <entry key="ENGLISH" value="154" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="1" />
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1641259096031" />
+    <option name="lastTrimTime" value="1641692186364" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
