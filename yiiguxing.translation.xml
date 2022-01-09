@@ -4,6 +4,14 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="As `NaN` values are not equal to each other, it is always a vain to loop up an entry from a map by using a `NaN` key, which could be proved from the following code." />
+      <item value="Every two `+Inf` (or `-Inf`) values are equal to each other, but every two `NaN` values are not equal." />
+      <item value="In floating-point computations, there are some cases in which the computation results might be infinities (Inf) or not-a-number (NaN). For example, in the following code, a `+Inf` and a `NaN` values are produced (yes, an `Inf` value times zero results a `NaN` value)." />
+      <item value="`NaN != NaN`, `Inf == Inf`" />
+      <item value="But please note that, as shown in a previous section, if a struct type contains a `_` field of an incomparable type, then the struct type is also incomparable." />
+      <item value="For example, the following program prints `true`." />
+      <item value="The `_` fields in struct comparisons are ignored" />
+      <item value="Struct values are compared field by field Similarly, when comparing two struct values, their fields will be compared one by one. Once two corresponding fields are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced in comparing two interfaces. For example, the first comparison in the following code results false, but the second one causes a panic." />
       <item value="For example, the first comparison in the following code results false, but the second one causes a panic." />
       <item value="When comparing two array values, their elements will be compared one by one. Once two corresponding elements are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced when comparing two interfaces." />
       <item value="Array values are compared element by element" />
@@ -46,22 +54,14 @@
       <item value="Session keep a pointer to sql.DB and provides all execution of all kind of database operations." />
       <item value="MD5All reads all the files in the file tree rooted at root and returns a map from file path to the MD5 sum of the file's contents. If the directory walk fails or any read operation fails, MD5All returns an error." />
       <item value="WithContext returns a new Group and an associated Context derived from ctx. The derived Context is canceled the first time a function passed to Go returns a non-nil error or the first time Wait returns, whichever occurs first." />
-      <item value="WriteLoop is a helper method that invokes Send every time the passed channel fires. This method blocks until ctx is canceled, so clients probably want to run it in its own goroutine. For typical usage, create a time.Ticker and pass its C channel to this method." />
-      <item value="CloudWatchAPI is an interface that defines the set of Amazon CloudWatch API operations required by CloudWatch." />
-      <item value="Send will fire an API request to CloudWatch with the latest stats for all metrics. It is preferred that the WriteLoop method is used." />
-      <item value="CloudWatch receives metrics observations and forwards them to CloudWatch. Create a CloudWatch object, use it to create metrics, and pass those metrics as dependencies to the components that will use them. To regularly report metrics to CloudWatch, use the WriteLoop helper method." />
-      <item value="Go calls the given function in a new goroutine. The first call to return a non-nil error cancels the group; its error will be returned by Wait." />
-      <item value="A Group is a collection of goroutines working on subtasks that are part of the same overall task. A zero Group is valid and does not cancel on error." />
-      <item value="Metadata is our way of representing request headers internally. They're used at the RPC level and translate back and forth from Transport headers." />
-      <item value="WithValue returns a copy of parent in which the value associated with key is val. Use context Values only for request-scoped data that transits processes and APIs, not for passing optional parameters to functions. The provided key must be comparable and should not be of type string or any other built-in type to avoid collisions between packages using context. Users of WithValue should define their own types for keys. To avoid allocating when assigning to an interface{}, context keys often have concrete type struct{}. Alternatively, exported context key variables' static type should be a pointer or interface." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="153" />
-        <entry key="ENGLISH" value="154" />
+        <entry key="CHINESE" value="160" />
+        <entry key="ENGLISH" value="161" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
-        <entry key="HAITIAN_CREOLE" value="1" />
+        <entry key="HAITIAN_CREOLE" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
