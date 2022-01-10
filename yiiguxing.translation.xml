@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Parent" />
       <item value="As `NaN` values are not equal to each other, it is always a vain to loop up an entry from a map by using a `NaN` key, which could be proved from the following code." />
       <item value="Every two `+Inf` (or `-Inf`) values are equal to each other, but every two `NaN` values are not equal." />
       <item value="In floating-point computations, there are some cases in which the computation results might be infinities (Inf) or not-a-number (NaN). For example, in the following code, a `+Inf` and a `NaN` values are produced (yes, an `Inf` value times zero results a `NaN` value)." />
@@ -53,12 +54,11 @@
       <item value="!evalphobia! stored the last executed query on this session beforeSQLExec func(string, ...interface{})" />
       <item value="Session keep a pointer to sql.DB and provides all execution of all kind of database operations." />
       <item value="MD5All reads all the files in the file tree rooted at root and returns a map from file path to the MD5 sum of the file's contents. If the directory walk fails or any read operation fails, MD5All returns an error." />
-      <item value="WithContext returns a new Group and an associated Context derived from ctx. The derived Context is canceled the first time a function passed to Go returns a non-nil error or the first time Wait returns, whichever occurs first." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="160" />
-        <entry key="ENGLISH" value="161" />
+        <entry key="CHINESE" value="161" />
+        <entry key="ENGLISH" value="162" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="HAITIAN_CREOLE" value="2" />
