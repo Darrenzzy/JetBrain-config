@@ -1,68 +1,68 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogX" value="1317" />
-    <option name="newTranslationDialogY" value="136" />
+    <option name="newTranslationDialogX" value="424" />
+    <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
-      <item value="From the benchmark results, we could find that the `BytesWriter` way is much more performant than the general `io.Writer` way, because the former way doesn't allocate (execpt the single buffer allocation). Please note, there is a type in the standard package, `bufio.Writer`, which acts like the `BytesWriter` type. Generally, we should use that type instead." />
-      <item value="The standard `io.Writer` only has one method: `Write([]byte) (int, error)`. When a string needs to be written, it must be converted to a byte slice before being passed to the `Write` method. This is quite inefficient. In the following code, a `BytesWriter` type is implemented to support writing strings without converting the strings to byte slices." />
-      <item value="From the following benchmark results, we know the `EqualFold` way is much more performant the `ToLower` comparison way, because the former way doesn't allocate." />
-      <item value="We could also use struct values as the map keys, which should be as performant as using array keys. The third example, which shows the performance difference between two ways of string comparations by ignoring cases." />
-      <item value="The benchmark result:" />
-      <item value="threshold" />
-      <item value="unintended" />
-      <item value="In the following code, using array values as the map keys is more performant than using strings as the map keys, because the former way doesn't allocate." />
-      <item value="In this section, some examples will be provided to show how to save allocations under some situations. In the following example, the function `f` is more efficient than the function `g`. The reason is the former makes one allocation, whereas the latter makes two." />
-      <item value="String and byte slice operations often involve memory allocations. Many of the allocations are short-lived. To make program run efficiently, we should try to allocate less short-lived memory blocks." />
-      <item value="Avoid allocations if possible" />
-      <item value="In the one-line way, the conversion `[]byte(str)` will duplicate the underlying of the string, which is unnecessarily. In the verbose way, the elements within `newByteSlice[len(str):]` will be unnecessarily zeroed in the `make` call." />
-      <item value="Generally, the verbose way is more peformant than the one-line append way, unless the length of the byte slice is comparatively much larger than the string. Sadly, currently (Go toolchain v1.17), [there is not an extreme performant way](https:github.comgolanggoissues43429) to do the merge." />
-      <item value="Way 2 (the verbose way):" />
-      <item value="Sometimes, we need to merge a string (`str`) a byte slice (`bs`) into a byte slice. There are two ways to achieve this goal. Way 1 (the one-line way):" />
-      <item value="Merge a string and a byte slice into a new byte slice" />
-      <item value="We could also modify the byte elements of the slice as needed before converting the slice to the final string. This is a benefit comparing to the other two ways." />
-      <item value="The benchmark results (when the length of `s` is 17):" />
-      <item value="The benchmark results (when the length of `s` is 16):" />
-      <item value="There is actually a third way to concatenate strings: build a byte slice then convert it to a string. As this way often needs two allocations, it is slower than the above introduced two ways. However, if the final produced string is small ([not limited to 32 bytes](0.4-stacks and escape analysis.mdthreshold-sizes)), we could manage to make one allocation happen on stack so that this way might a little faster (and flexible) than the above introduced two ways. In the following benchmark code, if the length of the package-level string `s` is not larger than 16, then the `Concat_WithBytes` way is more performant than the `Concat_WithPlus` way; otherwise, the `Concat_WithBytes` way is slower." />
-      <item value="Use byte slice to concatenate strings" />
-      <item value="The `strings.Builder` way could be also to build a string from unknown number (at coding time) of strings and byte slices. Somtimes, it might be impossible or inconvenient to calculate the length of the final built string. In such cases, the underlying byte slice used by a `strings.Builder` value will grow when needed. It might grow to a capabity which is larger than the length of the final built string. As the final built string will reuse the memory block of the underlying byte slice, there will be some memory wasted in the end. So, if possible, we should determine the length of the final built string in advance and call the `Grow` method of a `strings.Builder` value to grow its underlying byte slice to that length in one step." />
-      <item value="The `strings.Builder` way might waste some memory" />
-      <item value="So if it is possbile to do the whole concatenation in one statement, genreally, we should use the `+` operator to concatenate strings for its simpliticy and great performance." />
-      <item value="The benchmark results:" />
-      <item value="However, for [a runtime implementaion imperfection](https:go-review.googlesource.comcgo+343470) (in Go 1.151.161.17), sometimes the `+` operator way might be a little slower than the `strings.Builder` way. This imperfection has been [fixed since Go 1.18](https:go-review.googlesource.comcgo+359477)." />
-      <item value="In theory, if it is possbile to do the whole concatenation in one statement, then generally the `+` operator way is more performant than the `strings.Builder` way. The reason is that the `strings.Builder` way calls the `make` function to allocate enough bytes for coming string concatenations and the `make` call zeros those bytes, which is unnecessarily." />
-      <item value="The `+` operator could be used to concatenate multiple strings in one statement. Every of the concatenated strings must present as an individual expression at coding time. If it is impossible to use the `+` operator to concatenate some strings in one statement, then it is more efficient to use `strings.Builder` to concatenate them. The result string of using `strings.Builder` will be always allocated on heap. On the other hand, by using the `+` operator, the result string might be allocated on stack if the length of the result string is small (not larger than 32) and the result string doesn't escape." />
-      <item value="There are two principal ways to effectively concatenate strings in Go: use the `+` operator and use `strings.Builder`. Each way has its own advantages and drawbacks." />
-      <item value="Efficient ways to concatenate strings" />
-      <item value="The following benchmark code also proves this fact." />
-      <item value="For example, in the following program, the function `g` needs 3 heap allocations, but the function `f` needs none. The only differences between the two functions are the lengths of the involved byte slice and strings." />
-      <item value="In fact, recall that the example in the last section uses a byte slice with 33 bytes, the reason is to avoid allocating the string concatenation operands on stack." />
-      <item value="The byte elements of the result of a conversion between string and byte slice will be always allocated on heap the number of the elements is larger than 32" />
-      <item value="And please note that, this optimization is some unintended. It might be not supported any more since a future Go toolchain version." />
-      <item value="The verbose way actually has a drawback: simetimes it will allocate more memory than the normal way. If the first byte of a string operand (assume it is `s`) is known (at coding time), for example ``, then we could avoid this drawback by implementing the verbose way as `... + &quot;&quot; + s[1:] + ...`." />
-      <item value="Please note that, currently (Go toolchain v1.17), this optimization is only useful for byte slices with lengths larger than 32. If we change the length of the string `s` to 32 (by declaring it with `var s = []byte{31: 'x'}`), then the performance difference between the functions `f` and `g` will become neglectable. Please read the next section for the reason." />
-      <item value="allocate" />
-      <item value="oprand" />
-      <item value="In the following example, the function `f` (the verbose one) is much more efficient than the function `g` for most cases (as of the Go toolchain v1.17)." />
-      <item value="A byte-slice-to-string conversion appearing as an oprand in a string concatenation expression doesn't allocate if at least one of concatenated strings is a non-blank string constant" />
-      <item value="So if the entries of a map are seldom deleted but the elements of the map are modified frequently, it is best to use a pointer type as the map element type." />
-      <item value="dialOptions configure a Dial call. dialOptions are set by the DialOption values passed to Dial." />
-      <item value="This optimization leads to an interesting case. In the following code snippet, the function `modify1` makes one allocation but the function `modify2` makes none, so the function `modify1` is more performant than the function `modify2`. The reason could be easierly found out from their respective equivalent forms. The `string(key)` used in the function `modify2` only appears in a map element retrieval expression, whereas the `string(key)` used in the function `modify1` should be thought as appearing in a map element modification statement." />
-      <item value="This optimization also works if the key presents as a struct or array composite literal form: `T1{... Tn{..., string(key), ...} ...}`, where `Tx` is either a struct type or an array type. For example, the conversion `string(key)` in the following code doesn't do duplications, too." />
-      <item value="Note: this optimization is not made for map element modification statements. This could be proved by the following example, in which the conversion `string(key)` in the `get` function doesn't allocate, but the two conversions in the other two functions do allocate." />
-      <item value="A byte-slice-to-string conversion appearing as the index key of a map element retrieval expression doesn't allocate" />
-      <item value="bytes-2-string-as-map-retrieval-key" />
-      <item value="The performance differences between the two functions might be removed since a future Go toolchain version." />
-      <item value="verbose" />
+      <item value="Instance" />
+      <item value="Mechanical domain." />
+      <item value="Epoch is set to the twitter snowflake epoch of Nov 04 2010 01:42:54 UTC You may customize this to set a different epoch for your application." />
+      <item value="A heap is a common way to implement a priority queue. To build a priority queue, implement the Heap interface with the (negative) priority as the ordering for the Less method, so Push adds items while Pop removes the highest-priority item from the queue. The Examples include such an implementation; the file example_pq_test.go has the complete source." />
+      <item value="A Ring is an element of a circular list, or ring. Rings do not have a beginning or end; a pointer to any ring element serves as reference to the entire ring. Empty rings are represented as nil Ring pointers. The zero value for a Ring is a one-element ring with a nil Value." />
+      <item value="TODO returns a non-nil, empty Context. Code should use context.TODO when it's unclear which Context to use or it is not yet available (because the surrounding function has not yet been extended to accept a Context parameter)." />
+      <item value="Background returns a non-nil, empty Context. It is never canceled, has no values, and has no deadline. It is typically used by the main function, initialization, and tests, and as the top-level Context for incoming requests." />
+      <item value="specific" />
+      <item value="Bulk is the entry point to mass insertupdatedelete documents." />
+      <item value="abnormal" />
+      <item value="Subscribe" />
+      <item value="retrieve" />
+      <item value="finash" />
+      <item value="批量" />
+      <item value="bench" />
+      <item value="benchmark" />
+      <item value="Parent" />
+      <item value="As `NaN` values are not equal to each other, it is always a vain to loop up an entry from a map by using a `NaN` key, which could be proved from the following code." />
+      <item value="Every two `+Inf` (or `-Inf`) values are equal to each other, but every two `NaN` values are not equal." />
+      <item value="In floating-point computations, there are some cases in which the computation results might be infinities (Inf) or not-a-number (NaN). For example, in the following code, a `+Inf` and a `NaN` values are produced (yes, an `Inf` value times zero results a `NaN` value)." />
+      <item value="`NaN != NaN`, `Inf == Inf`" />
+      <item value="But please note that, as shown in a previous section, if a struct type contains a `_` field of an incomparable type, then the struct type is also incomparable." />
+      <item value="For example, the following program prints `true`." />
+      <item value="The `_` fields in struct comparisons are ignored" />
+      <item value="Struct values are compared field by field Similarly, when comparing two struct values, their fields will be compared one by one. Once two corresponding fields are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced in comparing two interfaces. For example, the first comparison in the following code results false, but the second one causes a panic." />
+      <item value="For example, the first comparison in the following code results false, but the second one causes a panic." />
+      <item value="When comparing two array values, their elements will be compared one by one. Once two corresponding elements are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced when comparing two interfaces." />
+      <item value="Array values are compared element by element" />
+      <item value="Please try to [avoid putting a zero-size field as the final field of a struct type](1-syntax-and-sanmatics.mdfinal-zero-size-field)." />
+      <item value="Lest the `_` fields waste memory, their types should be zero-size types. For example, the size of the type `Ty` is smaller than the type `Tx` in the following code." />
+      <item value="It is easy, just put an incomparable field in the struct type. For example, the following struct types are all incomparable." />
+      <item value="How to make a struct type incomparable" />
+      <item value="For example, the following program prints three `false`, then panics." />
+      <item value="Comparing two interface values produces a panic if the dynamic type of the two operands are identical and the identical type is an incomparable type" />
+      <item value="Go 1.18 introduces custom generics, so there might be a `slices.Compare` function in future Go versions to compare slices with any comparable element types." />
+      <item value="The two ways have no requirements on the lengths of the two operand byte slices." />
+      <item value="The second way: `string(x) == string(y)`. Due to an optimization made by the official standard Go compiler, no underlying bytes will be duplicated in this way. In fact, the `bytes.Equal` function uses this way to do the comparison." />
+      <item value="The first way: `bytes.Compare(x, y) == 0`." />
+      <item value="FormatInt returns the string representation of i in the given base, for 2 &lt;= base &lt;= 36. The result uses the lower-case letters 'a' to 'z' for digit values &gt;= 10." />
+      <item value="The above introduced way works for slices with any comparable element types. It certainly could be used to compare byte slices (which lengths are equal and known at coding time). Meanwhile, there are two other ways to compare byte slices `x` and `y`, even if the lengths of the two byte slices are not known at compile time." />
+      <item value="More ways to compare byte slices" />
+      <item value="The two lines compile okay." />
+      <item value="The following two lines fail to compile." />
+      <item value="In Go, slices are incomparable. But if the elements of two slices are comparable, then there is a way to compare the two slices (since Go version 1.17). Assume the elements of the two slices are identical and their lengths are equal and known at coding time, then we could use the following way to compare the two slices." />
+      <item value="Compare two slices which lengths are equal and known at coding time" />
+      <item value="Comparisons Related" />
+      <item value="SearchInts searches for x in a sorted slice of ints and returns the index as specified by Search. The return value is the index to insert x if x is not present (it could be len(a)). The slice must be sorted in ascending order." />
+      <item value="Package builder is a lightweight and fast SQL builder for Go and XORM. Make sure you have installed Go 1.8+ and then:" />
+      <item value="Structs contains various utilities to work with Go (Golang) structs. It was initially used by me to convert a struct into a `map[string]interface{}`. With time I've added other utilities for structs. It's basically a high level package based on primitives from the reflect package. Feel free to add new functions or improve the existing code." />
+      <item value="float32 &amp; float64 may be not inexact as conditions" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="172" />
-        <entry key="ENGLISH" value="173" />
+        <entry key="CHINESE" value="175" />
+        <entry key="ENGLISH" value="176" />
+        <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
-        <entry key="DANISH" value="1" />
         <entry key="FILIPINO" value="1" />
-        <entry key="HAITIAN_CREOLE" value="1" />
+        <entry key="HAITIAN_CREOLE" value="2" />
         <entry key="LATIN" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
@@ -71,7 +71,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1640614489890" />
+    <option name="lastTrimTime" value="1642125297554" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />

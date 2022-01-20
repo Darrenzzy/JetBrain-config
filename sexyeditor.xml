@@ -1,0 +1,17 @@
+<application>
+  <component name="SexyEditor">
+    <option name="configs">
+      <list>
+        <BackgroundConfiguration>
+          <option name="fileNames">
+            <array>
+              <option value="$USER_HOME$/Downloads/aaa.jpg" />
+            </array>
+          </option>
+          <option name="fixedPosition" value="false" />
+          <option name="position" value="4" />
+        </BackgroundConfiguration>
+      </list>
+    </option>
+  </component>
+</application>
