@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="parameter is inserted" />
       <item value="Intersect" />
       <item value="Instance" />
       <item value="Mechanical domain." />
@@ -53,12 +54,11 @@
       <item value="Comparisons Related" />
       <item value="SearchInts searches for x in a sorted slice of ints and returns the index as specified by Search. The return value is the index to insert x if x is not present (it could be len(a)). The slice must be sorted in ascending order." />
       <item value="Package builder is a lightweight and fast SQL builder for Go and XORM. Make sure you have installed Go 1.8+ and then:" />
-      <item value="Structs contains various utilities to work with Go (Golang) structs. It was initially used by me to convert a struct into a `map[string]interface{}`. With time I've added other utilities for structs. It's basically a high level package based on primitives from the reflect package. Feel free to add new functions or improve the existing code." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="176" />
-        <entry key="ENGLISH" value="177" />
+        <entry key="CHINESE" value="177" />
+        <entry key="ENGLISH" value="178" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
