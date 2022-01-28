@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Relation" />
       <item value="Close release the connection from pool" />
       <item value="处理" />
       <item value="Find Tag Users By Tags" />
@@ -53,12 +54,11 @@
       <item value="The two lines compile okay." />
       <item value="The following two lines fail to compile." />
       <item value="In Go, slices are incomparable. But if the elements of two slices are comparable, then there is a way to compare the two slices (since Go version 1.17). Assume the elements of the two slices are identical and their lengths are equal and known at coding time, then we could use the following way to compare the two slices." />
-      <item value="Compare two slices which lengths are equal and known at coding time" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="185" />
-        <entry key="ENGLISH" value="186" />
+        <entry key="CHINESE" value="186" />
+        <entry key="ENGLISH" value="187" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
