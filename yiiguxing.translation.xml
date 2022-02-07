@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Notity To Mq" />
       <item value="Notity" />
       <item value="Err Group Not Found" />
       <item value="时间戳" />
@@ -53,11 +54,10 @@
       <item value="The first way: `bytes.Compare(x, y) == 0`." />
       <item value="FormatInt returns the string representation of i in the given base, for 2 &lt;= base &lt;= 36. The result uses the lower-case letters 'a' to 'z' for digit values &gt;= 10." />
       <item value="The above introduced way works for slices with any comparable element types. It certainly could be used to compare byte slices (which lengths are equal and known at coding time). Meanwhile, there are two other ways to compare byte slices `x` and `y`, even if the lengths of the two byte slices are not known at compile time." />
-      <item value="More ways to compare byte slices" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="188" />
+        <entry key="CHINESE" value="189" />
         <entry key="ENGLISH" value="189" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
@@ -66,6 +66,7 @@
         <entry key="LATIN" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
+        <entry key="GREEK" value="1" />
         <entry key="HUNGARIAN" value="1" />
       </map>
     </option>
