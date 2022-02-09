@@ -17,7 +17,12 @@
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="sql" approved="true" type="SQL" />
       <removed_mapping ext="zsh" approved="true" type="Shell Script" />
+      <mapping ext=".model" type="Tabnine project model file" />
+      <mapping ext=".tabnine" type="Tabnine project model file" />
+      <mapping ext=".tabnine.model" type="Tabnine project model file" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="model" type="Tabnine project model file" />
+      <mapping ext="tabnine" type="Tabnine project model file" />
     </extensionMap>
   </component>
 </application>

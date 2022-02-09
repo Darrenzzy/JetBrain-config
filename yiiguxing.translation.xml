@@ -4,6 +4,16 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Notity To Mq" />
+      <item value="Notity" />
+      <item value="Err Group Not Found" />
+      <item value="时间戳" />
+      <item value="Relation" />
+      <item value="Close release the connection from pool" />
+      <item value="处理" />
+      <item value="Find Tag Users By Tags" />
+      <item value="parameter is inserted" />
+      <item value="Intersect" />
       <item value="Instance" />
       <item value="Mechanical domain." />
       <item value="Epoch is set to the twitter snowflake epoch of Nov 04 2010 01:42:54 UTC You may customize this to set a different epoch for your application." />
@@ -44,21 +54,11 @@
       <item value="The first way: `bytes.Compare(x, y) == 0`." />
       <item value="FormatInt returns the string representation of i in the given base, for 2 &lt;= base &lt;= 36. The result uses the lower-case letters 'a' to 'z' for digit values &gt;= 10." />
       <item value="The above introduced way works for slices with any comparable element types. It certainly could be used to compare byte slices (which lengths are equal and known at coding time). Meanwhile, there are two other ways to compare byte slices `x` and `y`, even if the lengths of the two byte slices are not known at compile time." />
-      <item value="More ways to compare byte slices" />
-      <item value="The two lines compile okay." />
-      <item value="The following two lines fail to compile." />
-      <item value="In Go, slices are incomparable. But if the elements of two slices are comparable, then there is a way to compare the two slices (since Go version 1.17). Assume the elements of the two slices are identical and their lengths are equal and known at coding time, then we could use the following way to compare the two slices." />
-      <item value="Compare two slices which lengths are equal and known at coding time" />
-      <item value="Comparisons Related" />
-      <item value="SearchInts searches for x in a sorted slice of ints and returns the index as specified by Search. The return value is the index to insert x if x is not present (it could be len(a)). The slice must be sorted in ascending order." />
-      <item value="Package builder is a lightweight and fast SQL builder for Go and XORM. Make sure you have installed Go 1.8+ and then:" />
-      <item value="Structs contains various utilities to work with Go (Golang) structs. It was initially used by me to convert a struct into a `map[string]interface{}`. With time I've added other utilities for structs. It's basically a high level package based on primitives from the reflect package. Feel free to add new functions or improve the existing code." />
-      <item value="float32 &amp; float64 may be not inexact as conditions" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="175" />
-        <entry key="ENGLISH" value="176" />
+        <entry key="CHINESE" value="189" />
+        <entry key="ENGLISH" value="189" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -66,12 +66,13 @@
         <entry key="LATIN" value="1" />
         <entry key="LITHUANIAN" value="1" />
         <entry key="SCOTS_GAELIC" value="1" />
+        <entry key="GREEK" value="1" />
         <entry key="HUNGARIAN" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1642125297554" />
+    <option name="lastTrimTime" value="1643953296603" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
