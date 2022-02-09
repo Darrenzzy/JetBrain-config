@@ -4,6 +4,8 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Sharding" />
+      <item value="primitive" />
       <item value="Property" />
       <item value="Notity To Mq" />
       <item value="Notity" />
@@ -52,13 +54,11 @@
       <item value="Go 1.18 introduces custom generics, so there might be a `slices.Compare` function in future Go versions to compare slices with any comparable element types." />
       <item value="The two ways have no requirements on the lengths of the two operand byte slices." />
       <item value="The second way: `string(x) == string(y)`. Due to an optimization made by the official standard Go compiler, no underlying bytes will be duplicated in this way. In fact, the `bytes.Equal` function uses this way to do the comparison." />
-      <item value="The first way: `bytes.Compare(x, y) == 0`." />
-      <item value="FormatInt returns the string representation of i in the given base, for 2 &lt;= base &lt;= 36. The result uses the lower-case letters 'a' to 'z' for digit values &gt;= 10." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="189" />
-        <entry key="ENGLISH" value="190" />
+        <entry key="CHINESE" value="191" />
+        <entry key="ENGLISH" value="192" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
