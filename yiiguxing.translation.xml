@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Property" />
       <item value="Notity To Mq" />
       <item value="Notity" />
       <item value="Err Group Not Found" />
@@ -53,12 +54,11 @@
       <item value="The second way: `string(x) == string(y)`. Due to an optimization made by the official standard Go compiler, no underlying bytes will be duplicated in this way. In fact, the `bytes.Equal` function uses this way to do the comparison." />
       <item value="The first way: `bytes.Compare(x, y) == 0`." />
       <item value="FormatInt returns the string representation of i in the given base, for 2 &lt;= base &lt;= 36. The result uses the lower-case letters 'a' to 'z' for digit values &gt;= 10." />
-      <item value="The above introduced way works for slices with any comparable element types. It certainly could be used to compare byte slices (which lengths are equal and known at coding time). Meanwhile, there are two other ways to compare byte slices `x` and `y`, even if the lengths of the two byte slices are not known at compile time." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="189" />
-        <entry key="ENGLISH" value="189" />
+        <entry key="ENGLISH" value="190" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
