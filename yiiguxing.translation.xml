@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="proactive" />
       <item value="被动推送" />
       <item value="主动通知" />
       <item value="CREATETIME" />
@@ -53,12 +54,11 @@
       <item value="Lest the `_` fields waste memory, their types should be zero-size types. For example, the size of the type `Ty` is smaller than the type `Tx` in the following code." />
       <item value="It is easy, just put an incomparable field in the struct type. For example, the following struct types are all incomparable." />
       <item value="How to make a struct type incomparable" />
-      <item value="For example, the following program prints three `false`, then panics." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="195" />
-        <entry key="ENGLISH" value="195" />
+        <entry key="ENGLISH" value="196" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
