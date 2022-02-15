@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="emp_number emp_number emp_number" />
       <item value="Position Desc" />
       <item value="user post" />
       <item value="PROACTIVE MSG" />
@@ -53,12 +54,11 @@
       <item value="For example, the first comparison in the following code results false, but the second one causes a panic." />
       <item value="When comparing two array values, their elements will be compared one by one. Once two corresponding elements are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced when comparing two interfaces." />
       <item value="Array values are compared element by element" />
-      <item value="Please try to [avoid putting a zero-size field as the final field of a struct type](1-syntax-and-sanmatics.mdfinal-zero-size-field)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="198" />
-        <entry key="ENGLISH" value="199" />
+        <entry key="CHINESE" value="199" />
+        <entry key="ENGLISH" value="200" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
