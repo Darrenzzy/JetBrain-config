@@ -4,6 +4,15 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="PROACTIVE MSG" />
+      <item value="proactive" />
+      <item value="被动推送" />
+      <item value="主动通知" />
+      <item value="CREATETIME" />
+      <item value="create Time" />
+      <item value="Sharding" />
+      <item value="primitive" />
+      <item value="Property" />
       <item value="Notity To Mq" />
       <item value="Notity" />
       <item value="Err Group Not Found" />
@@ -45,20 +54,11 @@
       <item value="Please try to [avoid putting a zero-size field as the final field of a struct type](1-syntax-and-sanmatics.mdfinal-zero-size-field)." />
       <item value="Lest the `_` fields waste memory, their types should be zero-size types. For example, the size of the type `Ty` is smaller than the type `Tx` in the following code." />
       <item value="It is easy, just put an incomparable field in the struct type. For example, the following struct types are all incomparable." />
-      <item value="How to make a struct type incomparable" />
-      <item value="For example, the following program prints three `false`, then panics." />
-      <item value="Comparing two interface values produces a panic if the dynamic type of the two operands are identical and the identical type is an incomparable type" />
-      <item value="Go 1.18 introduces custom generics, so there might be a `slices.Compare` function in future Go versions to compare slices with any comparable element types." />
-      <item value="The two ways have no requirements on the lengths of the two operand byte slices." />
-      <item value="The second way: `string(x) == string(y)`. Due to an optimization made by the official standard Go compiler, no underlying bytes will be duplicated in this way. In fact, the `bytes.Equal` function uses this way to do the comparison." />
-      <item value="The first way: `bytes.Compare(x, y) == 0`." />
-      <item value="FormatInt returns the string representation of i in the given base, for 2 &lt;= base &lt;= 36. The result uses the lower-case letters 'a' to 'z' for digit values &gt;= 10." />
-      <item value="The above introduced way works for slices with any comparable element types. It certainly could be used to compare byte slices (which lengths are equal and known at coding time). Meanwhile, there are two other ways to compare byte slices `x` and `y`, even if the lengths of the two byte slices are not known at compile time." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="189" />
-        <entry key="ENGLISH" value="189" />
+        <entry key="CHINESE" value="196" />
+        <entry key="ENGLISH" value="197" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -72,7 +72,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1643953296603" />
+    <option name="lastTrimTime" value="1644385972117" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
