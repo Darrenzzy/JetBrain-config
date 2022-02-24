@@ -4,6 +4,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Client Propagates Timeout" />
       <item value="Split" />
       <item value="emp_number emp_number emp_number" />
       <item value="Position Desc" />
@@ -53,12 +54,11 @@
       <item value="The `_` fields in struct comparisons are ignored" />
       <item value="Struct values are compared field by field Similarly, when comparing two struct values, their fields will be compared one by one. Once two corresponding fields are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced in comparing two interfaces. For example, the first comparison in the following code results false, but the second one causes a panic." />
       <item value="For example, the first comparison in the following code results false, but the second one causes a panic." />
-      <item value="When comparing two array values, their elements will be compared one by one. Once two corresponding elements are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced when comparing two interfaces." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="200" />
-        <entry key="ENGLISH" value="201" />
+        <entry key="CHINESE" value="201" />
+        <entry key="ENGLISH" value="202" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
