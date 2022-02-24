@@ -4,6 +4,10 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Split" />
+      <item value="emp_number emp_number emp_number" />
+      <item value="Position Desc" />
+      <item value="user post" />
       <item value="PROACTIVE MSG" />
       <item value="proactive" />
       <item value="被动推送" />
@@ -50,15 +54,11 @@
       <item value="Struct values are compared field by field Similarly, when comparing two struct values, their fields will be compared one by one. Once two corresponding fields are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced in comparing two interfaces. For example, the first comparison in the following code results false, but the second one causes a panic." />
       <item value="For example, the first comparison in the following code results false, but the second one causes a panic." />
       <item value="When comparing two array values, their elements will be compared one by one. Once two corresponding elements are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced when comparing two interfaces." />
-      <item value="Array values are compared element by element" />
-      <item value="Please try to [avoid putting a zero-size field as the final field of a struct type](1-syntax-and-sanmatics.mdfinal-zero-size-field)." />
-      <item value="Lest the `_` fields waste memory, their types should be zero-size types. For example, the size of the type `Ty` is smaller than the type `Tx` in the following code." />
-      <item value="It is easy, just put an incomparable field in the struct type. For example, the following struct types are all incomparable." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="196" />
-        <entry key="ENGLISH" value="197" />
+        <entry key="CHINESE" value="200" />
+        <entry key="ENGLISH" value="201" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -72,7 +72,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1644385972117" />
+    <option name="lastTrimTime" value="1645316528717" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
