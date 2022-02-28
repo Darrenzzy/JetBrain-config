@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="api call latency" />
       <item value="订阅" />
       <item value="订阅&#10;" />
       <item value="subscribe" />
@@ -54,12 +55,11 @@
       <item value="In floating-point computations, there are some cases in which the computation results might be infinities (Inf) or not-a-number (NaN). For example, in the following code, a `+Inf` and a `NaN` values are produced (yes, an `Inf` value times zero results a `NaN` value)." />
       <item value="`NaN != NaN`, `Inf == Inf`" />
       <item value="But please note that, as shown in a previous section, if a struct type contains a `_` field of an incomparable type, then the struct type is also incomparable." />
-      <item value="For example, the following program prints `true`." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="205" />
-        <entry key="ENGLISH" value="205" />
+        <entry key="ENGLISH" value="206" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
