@@ -5,6 +5,9 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="批量" />
+      <item value="Fatch" />
+      <item value="Featch" />
       <item value="Passport" />
       <item value="解绑" />
       <item value="api call latency" />
@@ -48,18 +51,15 @@
       <item value="Subscribe" />
       <item value="retrieve" />
       <item value="finash" />
-      <item value="批量" />
       <item value="bench" />
       <item value="benchmark" />
       <item value="Parent" />
       <item value="As `NaN` values are not equal to each other, it is always a vain to loop up an entry from a map by using a `NaN` key, which could be proved from the following code." />
-      <item value="Every two `+Inf` (or `-Inf`) values are equal to each other, but every two `NaN` values are not equal." />
-      <item value="In floating-point computations, there are some cases in which the computation results might be infinities (Inf) or not-a-number (NaN). For example, in the following code, a `+Inf` and a `NaN` values are produced (yes, an `Inf` value times zero results a `NaN` value)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="206" />
-        <entry key="ENGLISH" value="207" />
+        <entry key="CHINESE" value="209" />
+        <entry key="ENGLISH" value="209" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
