@@ -1,9 +1,16 @@
 <application>
   <component name="AppStorage">
+    <option name="newTranslationDialogCollapseDictViewer" value="false" />
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="解绑" />
+      <item value="api call latency" />
+      <item value="订阅" />
+      <item value="订阅&#10;" />
+      <item value="subscribe" />
+      <item value="Client Propagates Timeout" />
       <item value="Split" />
       <item value="emp_number emp_number emp_number" />
       <item value="Position Desc" />
@@ -48,17 +55,11 @@
       <item value="Every two `+Inf` (or `-Inf`) values are equal to each other, but every two `NaN` values are not equal." />
       <item value="In floating-point computations, there are some cases in which the computation results might be infinities (Inf) or not-a-number (NaN). For example, in the following code, a `+Inf` and a `NaN` values are produced (yes, an `Inf` value times zero results a `NaN` value)." />
       <item value="`NaN != NaN`, `Inf == Inf`" />
-      <item value="But please note that, as shown in a previous section, if a struct type contains a `_` field of an incomparable type, then the struct type is also incomparable." />
-      <item value="For example, the following program prints `true`." />
-      <item value="The `_` fields in struct comparisons are ignored" />
-      <item value="Struct values are compared field by field Similarly, when comparing two struct values, their fields will be compared one by one. Once two corresponding fields are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced in comparing two interfaces. For example, the first comparison in the following code results false, but the second one causes a panic." />
-      <item value="For example, the first comparison in the following code results false, but the second one causes a panic." />
-      <item value="When comparing two array values, their elements will be compared one by one. Once two corresponding elements are found unequal, the whole comparison stops and a false result is resulted. The whole comparison might also stop for a panic produced when comparing two interfaces." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="200" />
-        <entry key="ENGLISH" value="201" />
+        <entry key="CHINESE" value="206" />
+        <entry key="ENGLISH" value="206" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -72,7 +73,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1646069194380" />
+    <option name="lastTrimTime" value="1645753173113" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
