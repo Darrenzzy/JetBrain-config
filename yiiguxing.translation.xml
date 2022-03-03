@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="track" />
       <item value="批量" />
       <item value="Fatch" />
       <item value="Featch" />
@@ -54,7 +55,6 @@
       <item value="bench" />
       <item value="benchmark" />
       <item value="Parent" />
-      <item value="As `NaN` values are not equal to each other, it is always a vain to loop up an entry from a map by using a `NaN` key, which could be proved from the following code." />
     </histories>
     <option name="languageScores">
       <map>
