@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="SetLogger use specified logger user customized, in general, we suggest user to replace the default logger with specified" />
       <item value="do balance in group failed, get consumer id list failed" />
       <item value="Concurrently max span offset.it has no effect on sequential consumption" />
       <item value="The delete built-in function deletes the element with the specified key (m[key]) from the map. If m is nil or there is no such element, delete is a no-op." />
@@ -54,12 +55,11 @@
       <item value="Bulk is the entry point to mass insertupdatedelete documents." />
       <item value="abnormal" />
       <item value="Subscribe" />
-      <item value="retrieve" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="213" />
-        <entry key="ENGLISH" value="214" />
+        <entry key="CHINESE" value="214" />
+        <entry key="ENGLISH" value="215" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
