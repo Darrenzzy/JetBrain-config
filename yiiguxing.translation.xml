@@ -5,6 +5,13 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="The delete built-in function deletes the element with the specified key (m[key]) from the map. If m is nil or there is no such element, delete is a no-op." />
+      <item value="The copy built-in function copies elements from a source slice into a destination slice. (As a special case, it also will copy bytes from a string to a slice of bytes.) The source and destination may overlap. Copy returns the number of elements copied, which will be the minimum of len(src) and len(dst)." />
+      <item value="track" />
+      <item value="批量" />
+      <item value="Fatch" />
+      <item value="Featch" />
+      <item value="Passport" />
       <item value="解绑" />
       <item value="api call latency" />
       <item value="订阅" />
@@ -47,19 +54,12 @@
       <item value="Subscribe" />
       <item value="retrieve" />
       <item value="finash" />
-      <item value="批量" />
       <item value="bench" />
-      <item value="benchmark" />
-      <item value="Parent" />
-      <item value="As `NaN` values are not equal to each other, it is always a vain to loop up an entry from a map by using a `NaN` key, which could be proved from the following code." />
-      <item value="Every two `+Inf` (or `-Inf`) values are equal to each other, but every two `NaN` values are not equal." />
-      <item value="In floating-point computations, there are some cases in which the computation results might be infinities (Inf) or not-a-number (NaN). For example, in the following code, a `+Inf` and a `NaN` values are produced (yes, an `Inf` value times zero results a `NaN` value)." />
-      <item value="`NaN != NaN`, `Inf == Inf`" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="206" />
-        <entry key="ENGLISH" value="206" />
+        <entry key="CHINESE" value="211" />
+        <entry key="ENGLISH" value="212" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -73,7 +73,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1646230943267" />
+    <option name="lastTrimTime" value="1646185950028" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
