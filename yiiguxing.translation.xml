@@ -5,6 +5,8 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="If root command has SilentErrors flagged, all subcommands should respect it" />
+      <item value="A program compiled with -buildmode=c-archive or c-shared has a main, but it is not executed." />
       <item value="SetLogger use specified logger user customized, in general, we suggest user to replace the default logger with specified" />
       <item value="do balance in group failed, get consumer id list failed" />
       <item value="Concurrently max span offset.it has no effect on sequential consumption" />
@@ -53,13 +55,11 @@
       <item value="Background returns a non-nil, empty Context. It is never canceled, has no values, and has no deadline. It is typically used by the main function, initialization, and tests, and as the top-level Context for incoming requests." />
       <item value="specific" />
       <item value="Bulk is the entry point to mass insertupdatedelete documents." />
-      <item value="abnormal" />
-      <item value="Subscribe" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="214" />
-        <entry key="ENGLISH" value="215" />
+        <entry key="CHINESE" value="216" />
+        <entry key="ENGLISH" value="217" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
