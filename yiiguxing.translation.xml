@@ -5,6 +5,17 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="returns all the slaves" />
+      <item value="returns the complete FlagSet that applies to this command (local and persistent declared here and by all parents)." />
+      <item value="returns the persistent FlagSet specifically set in the current command." />
+      <item value="sets the maximum amount of time a connection may be reused." />
+      <item value="spanid" />
+      <item value="Handle registers a new route with a matcher for the URL path and method." />
+      <item value="If root command has SilentErrors flagged, all subcommands should respect it" />
+      <item value="A program compiled with -buildmode=c-archive or c-shared has a main, but it is not executed." />
+      <item value="SetLogger use specified logger user customized, in general, we suggest user to replace the default logger with specified" />
+      <item value="do balance in group failed, get consumer id list failed" />
+      <item value="Concurrently max span offset.it has no effect on sequential consumption" />
       <item value="The delete built-in function deletes the element with the specified key (m[key]) from the map. If m is nil or there is no such element, delete is a no-op." />
       <item value="The copy built-in function copies elements from a source slice into a destination slice. (As a special case, it also will copy bytes from a string to a slice of bytes.) The source and destination may overlap. Copy returns the number of elements copied, which will be the minimum of len(src) and len(dst)." />
       <item value="track" />
@@ -44,22 +55,11 @@
       <item value="Instance" />
       <item value="Mechanical domain." />
       <item value="Epoch is set to the twitter snowflake epoch of Nov 04 2010 01:42:54 UTC You may customize this to set a different epoch for your application." />
-      <item value="A heap is a common way to implement a priority queue. To build a priority queue, implement the Heap interface with the (negative) priority as the ordering for the Less method, so Push adds items while Pop removes the highest-priority item from the queue. The Examples include such an implementation; the file example_pq_test.go has the complete source." />
-      <item value="A Ring is an element of a circular list, or ring. Rings do not have a beginning or end; a pointer to any ring element serves as reference to the entire ring. Empty rings are represented as nil Ring pointers. The zero value for a Ring is a one-element ring with a nil Value." />
-      <item value="TODO returns a non-nil, empty Context. Code should use context.TODO when it's unclear which Context to use or it is not yet available (because the surrounding function has not yet been extended to accept a Context parameter)." />
-      <item value="Background returns a non-nil, empty Context. It is never canceled, has no values, and has no deadline. It is typically used by the main function, initialization, and tests, and as the top-level Context for incoming requests." />
-      <item value="specific" />
-      <item value="Bulk is the entry point to mass insertupdatedelete documents." />
-      <item value="abnormal" />
-      <item value="Subscribe" />
-      <item value="retrieve" />
-      <item value="finash" />
-      <item value="bench" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="211" />
-        <entry key="ENGLISH" value="212" />
+        <entry key="CHINESE" value="222" />
+        <entry key="ENGLISH" value="223" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -73,7 +73,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1646185950028" />
+    <option name="lastTrimTime" value="1648176320360" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />

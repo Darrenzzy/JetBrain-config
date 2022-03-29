@@ -6,6 +6,7 @@
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="protobac" type="PLAIN_TEXT" />
       <mapping ext="protobak" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping pattern="t_account_application" type="SQL" />
