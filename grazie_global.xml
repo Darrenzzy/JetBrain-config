@@ -56,6 +56,15 @@
         <option value="LanguageTool.EN.GONNA_TEMP" />
       </set>
     </option>
+    <option name="suppressingContext">
+      <SuppressingContext>
+        <option name="suppressed">
+          <set>
+            <option value="isDevice int64," />
+          </set>
+        </option>
+      </SuppressingContext>
+    </option>
     <option name="detectionContext">
       <State>
         <option name="disabled">
