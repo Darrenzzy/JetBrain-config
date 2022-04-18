@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="A FileSystem implements access to a collection of named files. The elements in a file path are separated by slash ('', U+002F) characters, regardless of host operating system convention. See the FileServer function to convert a FileSystem to a Handler. This interface predates the fs.FS interface, which can be used instead: the FS adapter function converts an fs.FS to a FileSystem." />
       <item value="invalid credentials" />
       <item value="Send Login Failure Notification" />
       <item value="IsFilterExt decribes if rPath's ext match filter ext" />
@@ -54,12 +55,11 @@
       <item value="Relation" />
       <item value="Close release the connection from pool" />
       <item value="处理" />
-      <item value="Find Tag Users By Tags" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="227" />
-        <entry key="ENGLISH" value="228" />
+        <entry key="CHINESE" value="228" />
+        <entry key="ENGLISH" value="229" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
