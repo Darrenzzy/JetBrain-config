@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="invalid credentials" />
       <item value="Send Login Failure Notification" />
       <item value="IsFilterExt decribes if rPath's ext match filter ext" />
       <item value="FileSystem is the interface for supporting any implmentation of file system." />
@@ -54,12 +55,11 @@
       <item value="Close release the connection from pool" />
       <item value="处理" />
       <item value="Find Tag Users By Tags" />
-      <item value="parameter is inserted" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="226" />
-        <entry key="ENGLISH" value="227" />
+        <entry key="CHINESE" value="227" />
+        <entry key="ENGLISH" value="228" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
