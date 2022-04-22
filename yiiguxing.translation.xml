@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="`Value` represents a dynamically typed value which can be either null, a number, a string, a boolean, a recursive struct value, or a list of values. A producer of value is expected to set one of that variants, absence of any variant indicates an error." />
       <item value="To Upper" />
       <item value="concurrent map writes" />
       <item value="A FileSystem implements access to a collection of named files. The elements in a file path are separated by slash ('', U+002F) characters, regardless of host operating system convention. See the FileServer function to convert a FileSystem to a Handler. This interface predates the fs.FS interface, which can be used instead: the FS adapter function converts an fs.FS to a FileSystem." />
@@ -54,12 +55,11 @@
       <item value="Notity" />
       <item value="Err Group Not Found" />
       <item value="时间戳" />
-      <item value="Relation" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="230" />
-        <entry key="ENGLISH" value="231" />
+        <entry key="CHINESE" value="232" />
+        <entry key="ENGLISH" value="233" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -73,6 +73,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1650104430394" />
+    <option name="lastTrimTime" value="1650601582405" />
   </component>
 </application>
