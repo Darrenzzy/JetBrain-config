@@ -5,15 +5,6 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
-      <item value="Toilet" />
-      <item value="fluent" />
-      <item value="Dial establishes a connection to a log daemon by connecting to address raddr on the specified network. Each write to the returned writer sends a log message with the facility and severity (from priority) and tag. If tag is empty, the os.Args[0] is used. If network is empty, Dial will connect to the local syslog server. Otherwise, see the documentation for net.Dial for valid values of network and raddr." />
-      <item value="`Value` represents a dynamically typed value which can be either null, a number, a string, a boolean, a recursive struct value, or a list of values. A producer of value is expected to set one of that variants, absence of any variant indicates an error." />
-      <item value="To Upper" />
-      <item value="concurrent map writes" />
-      <item value="A FileSystem implements access to a collection of named files. The elements in a file path are separated by slash ('', U+002F) characters, regardless of host operating system convention. See the FileServer function to convert a FileSystem to a Handler. This interface predates the fs.FS interface, which can be used instead: the FS adapter function converts an fs.FS to a FileSystem." />
-      <item value="invalid credentials" />
-      <item value="Send Login Failure Notification" />
       <item value="IsFilterExt decribes if rPath's ext match filter ext" />
       <item value="FileSystem is the interface for supporting any implmentation of file system." />
       <item value="For most projects, this workflow file will not need changing; you simply need to commit it to your repository. You may wish to alter this file to override the set of languages analyzed, or to provide custom queries or build logic. NOTE We have attempted to detect the languages in your repository. Please check the `language` matrix defined below to confirm you have the correct set of supported CodeQL languages." />
@@ -55,11 +46,20 @@
       <item value="primitive" />
       <item value="Property" />
       <item value="Notity To Mq" />
+      <item value="Notity" />
+      <item value="Err Group Not Found" />
+      <item value="时间戳" />
+      <item value="Relation" />
+      <item value="Close release the connection from pool" />
+      <item value="处理" />
+      <item value="Find Tag Users By Tags" />
+      <item value="parameter is inserted" />
+      <item value="Intersect" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="236" />
-        <entry key="ENGLISH" value="237" />
+        <entry key="CHINESE" value="225" />
+        <entry key="ENGLISH" value="226" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -73,6 +73,9 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1651213254658" />
+    <option name="lastTrimTime" value="1649665718556" />
+  </component>
+  <component name="Settings">
+    <option name="translateDocumentation" value="true" />
   </component>
 </application>
