@@ -5,6 +5,8 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="pls try later" />
+      <item value="pls later try" />
       <item value="IsFilterExt decribes if rPath's ext match filter ext" />
       <item value="FileSystem is the interface for supporting any implmentation of file system." />
       <item value="For most projects, this workflow file will not need changing; you simply need to commit it to your repository. You may wish to alter this file to override the set of languages analyzed, or to provide custom queries or build logic. NOTE We have attempted to detect the languages in your repository. Please check the `language` matrix defined below to confirm you have the correct set of supported CodeQL languages." />
@@ -53,13 +55,11 @@
       <item value="Close release the connection from pool" />
       <item value="处理" />
       <item value="Find Tag Users By Tags" />
-      <item value="parameter is inserted" />
-      <item value="Intersect" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="225" />
-        <entry key="ENGLISH" value="226" />
+        <entry key="CHINESE" value="227" />
+        <entry key="ENGLISH" value="228" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -73,7 +73,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1649665718556" />
+    <option name="lastTrimTime" value="1651819641713" />
   </component>
   <component name="Settings">
     <option name="translateDocumentation" value="true" />
