@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Provides a possibility to directly insert a mapping based on type and value. This makes it possible to directly map type arguments not possible to instantiate with reflect like unidirectional channels." />
       <item value="Called inject.InterfaceOf with a value that is not a pointer to an interface. (MyInterface)(nil)" />
       <item value="Maps the concrete value of val to its dynamic type using reflect.TypeOf, It returns the TypeMapper registered in." />
       <item value="inject" />
@@ -54,12 +55,11 @@
       <item value="主动通知" />
       <item value="CREATETIME" />
       <item value="create Time" />
-      <item value="Sharding" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="237" />
-        <entry key="ENGLISH" value="238" />
+        <entry key="CHINESE" value="238" />
+        <entry key="ENGLISH" value="239" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
