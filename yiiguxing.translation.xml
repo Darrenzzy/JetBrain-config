@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="345" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="injected" />
       <item value="IsValid reports whether v represents a value. It returns false if v is the zero Value. If IsValid returns false, all other methods except String panic. Most functions and methods never return an invalid Value. If one does, its documentation states the conditions explicitly." />
       <item value="Maps the interface{} value based on its immediate type from reflect.TypeOf. Map(interface{}) TypeMapper Maps the interface{} value based on the pointer of an Interface provided. This is really only useful for mapping a value as an interface, as interfaces cannot at this time be referenced directly without a pointer. MapTo(interface{}, interface{}) TypeMapper Provides a possibility to directly insert a mapping based on type and value. This makes it possible to directly map type arguments not possible to instantiate with reflect like unidirectional channels. Set(reflect.Type, reflect.Value) TypeMapper Returns the Value that is mapped to the current type. Returns a zeroed Value if the Type has not been mapped." />
       <item value="retcode" />
@@ -54,12 +55,11 @@
       <item value="Notity To Mq" />
       <item value="Notity" />
       <item value="Err Group Not Found" />
-      <item value="时间戳" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="231" />
-        <entry key="ENGLISH" value="232" />
+        <entry key="CHINESE" value="232" />
+        <entry key="ENGLISH" value="233" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
