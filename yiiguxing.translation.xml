@@ -3,8 +3,8 @@
     <option name="newTranslationDialogCollapseDictViewer" value="false" />
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
-    <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="device intercept time" />
       <item value="outs length must greater than" />
       <item value="Provides a possibility to directly insert a mapping based on type and value. This makes it possible to directly map type arguments not possible to instantiate with reflect like unidirectional channels." />
       <item value="Called inject.InterfaceOf with a value that is not a pointer to an interface. (MyInterface)(nil)" />
@@ -54,7 +54,6 @@
       <item value="proactive" />
       <item value="被动推送" />
       <item value="主动通知" />
-      <item value="CREATETIME" />
     </histories>
     <option name="languageScores">
       <map>
