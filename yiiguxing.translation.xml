@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
     <histories>
+      <item value="IdleTimeout is the maximum amount of time to wait for the next request when keep-alives are enabled. If IdleTimeout is zero, the value of ReadTimeout is used. If both are zero, there is no timeout." />
       <item value="device intercept time" />
       <item value="outs length must greater than" />
       <item value="Provides a possibility to directly insert a mapping based on type and value. This makes it possible to directly map type arguments not possible to instantiate with reflect like unidirectional channels." />
@@ -53,12 +54,11 @@
       <item value="PROACTIVE MSG" />
       <item value="proactive" />
       <item value="被动推送" />
-      <item value="主动通知" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="239" />
-        <entry key="ENGLISH" value="240" />
+        <entry key="CHINESE" value="240" />
+        <entry key="ENGLISH" value="241" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
