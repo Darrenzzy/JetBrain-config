@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
     <histories>
+      <item value="role list by group" />
       <item value="The delete built-in function deletes the element with the specified key (m[key]) from the map. If m is nil or there is no such element, delete is a no-op." />
       <item value="AsyncProducer publishes Kafka messages using a non-blocking API. It routes messages to the correct broker for the provided topic-partition, refreshing metadata as appropriate, and parses responses for errors. You must read from the Errors() channel or the producer will deadlock. You must call Close() or AsyncClose() on a producer to avoid leaks and message lost: it will not be garbage-collected automatically when it passes out of scope and buffered messages may not be flushed." />
       <item value="IdleTimeout is the maximum amount of time to wait for the next request when keep-alives are enabled. If IdleTimeout is zero, the value of ReadTimeout is used. If both are zero, there is no timeout." />
@@ -53,7 +54,6 @@
       <item value="Position Desc" />
       <item value="user post" />
       <item value="PROACTIVE MSG" />
-      <item value="proactive" />
     </histories>
     <option name="languageScores">
       <map>
