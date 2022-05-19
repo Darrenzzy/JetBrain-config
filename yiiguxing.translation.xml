@@ -4,6 +4,8 @@
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
     <histories>
+      <item value="Unix returns the local Time corresponding to the given Unix time, sec seconds and nsec nanoseconds since January 1, 1970 UTC. It is valid to pass nsec outside the range [0, 999999999]. Not all sec values have a corresponding time value. One such value is 1&lt;&lt;63-1 (the largest int64 value)." />
+      <item value="Instancer listens to a service discovery system and notifies registered observers of changes in the resource instances. Every event sent to the channels contains a complete set of instances known to the Instancer. That complete set is sent immediately upon registering the channel, and on any future updates from discovery system." />
       <item value="Any returned error will be of type url.Error. The url.Error value's Timeout method will report true if the request timed out." />
       <item value="primitive" />
       <item value="Strategy Algorithm for message allocating between consumers An allocate strategy proxy for based on machine room nearside priority. An actual allocate strategy can be specified. If any consumer is alive in a machine room, the message queue of the broker which is deployed in the same machine should only be allocated to those. Otherwise, those message queues can be shared along all consumers since there are no alive consumer to monopolize them. Average Hashing queue algorithm Cycle average Hashing queue algorithm Use Message QueueID specified Computer room Hashing queue algorithm, such as Alipay logic room Consistent Hashing queue algorithm" />
@@ -52,13 +54,11 @@
       <item value="解绑" />
       <item value="api call latency" />
       <item value="订阅" />
-      <item value="订阅&#10;" />
-      <item value="subscribe" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="248" />
-        <entry key="ENGLISH" value="249" />
+        <entry key="CHINESE" value="250" />
+        <entry key="ENGLISH" value="251" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
