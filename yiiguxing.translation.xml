@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
     <histories>
+      <item value="Any returned error will be of type url.Error. The url.Error value's Timeout method will report true if the request timed out." />
       <item value="primitive" />
       <item value="Strategy Algorithm for message allocating between consumers An allocate strategy proxy for based on machine room nearside priority. An actual allocate strategy can be specified. If any consumer is alive in a machine room, the message queue of the broker which is deployed in the same machine should only be allocated to those. Otherwise, those message queues can be shared along all consumers since there are no alive consumer to monopolize them. Average Hashing queue algorithm Cycle average Hashing queue algorithm Use Message QueueID specified Computer room Hashing queue algorithm, such as Alipay logic room Consistent Hashing queue algorithm" />
       <item value="Max re-consume times. -1 means 16 times. If messages are re-consumed more than {@link maxReconsumeTimes} before Success, it's be directed to a deletion queue waiting." />
@@ -53,12 +54,11 @@
       <item value="订阅" />
       <item value="订阅&#10;" />
       <item value="subscribe" />
-      <item value="Client Propagates Timeout" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="247" />
-        <entry key="ENGLISH" value="248" />
+        <entry key="CHINESE" value="248" />
+        <entry key="ENGLISH" value="249" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
