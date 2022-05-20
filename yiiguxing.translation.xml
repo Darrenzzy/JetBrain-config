@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
     <histories>
+      <item value="Trim returns a slice of the string s with all leading and trailing Unicode code points contained in cutset removed." />
       <item value="Join concatenates the elements of its first argument to create a single string. The separator string sep is placed between elements in the resulting string." />
       <item value="Slice sorts the slice x given the provided less function. It panics if x is not a slice. The sort is not guaranteed to be stable: equal elements may be reversed from their original order. For a stable sort, use SliceStable. The less function must satisfy the same requirements as the Interface type's Less method." />
       <item value="Update records, bean's non-empty fields are updated contents, condiBean' non-empty filds are conditions CAUTION: 1.bool will defaultly be updated content nor conditions You should call UseBool if you have bool to use. 2.float32 &amp; float64 may be not inexact as conditions" />
@@ -53,12 +54,11 @@
       <item value="批量" />
       <item value="Fatch" />
       <item value="Featch" />
-      <item value="Passport" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="253" />
-        <entry key="ENGLISH" value="254" />
+        <entry key="CHINESE" value="254" />
+        <entry key="ENGLISH" value="255" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
