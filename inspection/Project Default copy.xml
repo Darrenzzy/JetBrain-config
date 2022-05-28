@@ -3,6 +3,16 @@
   <inspection_tool class="GoDeferInLoop" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="GoExportedElementShouldHaveComment" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="GoNilness" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="GoUnhandledErrorResult" enabled="true" level="WARNING" enabled_by_default="true">
+    <functions>
+      <function importPath="fmt" name="Printf" />
+      <function importPath="fmt" name="Errorf" />
+      <function importPath="math/rand" name="Read" />
+      <function importPath="fmt" name="Println" />
+      <function importPath="fmt" name="Print" />
+      <function importPath="fmt" name="Fprintf" />
+    </functions>
+  </inspection_tool>
   <inspection_tool class="GoUnnecessarilyExportedIdentifiers" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="GoUnreachableCode" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
