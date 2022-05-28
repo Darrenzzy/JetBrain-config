@@ -4,6 +4,8 @@
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
     <histories>
+      <item value="Return specifies which group channels will be populated. If they are set to true, you must read from the respective channels to prevent deadlock." />
+      <item value="If enabled, rebalance notification will be returned on the Notifications channel (default disabled)." />
       <item value="OffsetNewest stands for the log head offset, i.e. the offset that will be assigned to the next message that will be produced to the partition. You can send this to a client's GetOffset method to get this offset, or when calling ConsumePartition to start consuming new messages." />
       <item value="The retention duration for committed offsets. If zero, disabled (in which case the `offsets.retention.minutes` option on the broker will be used). Kafka only supports precision up to milliseconds; nanoseconds will be truncated. Requires Kafka broker version 0.9.0 or later. (default is 0: disabled)." />
       <item value="The initial offset to use if no offset was previously committed. Should be OffsetNewest or OffsetOldest. Defaults to OffsetNewest." />
@@ -52,13 +54,11 @@
       <item value="spanid" />
       <item value="Handle registers a new route with a matcher for the URL path and method." />
       <item value="If root command has SilentErrors flagged, all subcommands should respect it" />
-      <item value="A program compiled with -buildmode=c-archive or c-shared has a main, but it is not executed." />
-      <item value="SetLogger use specified logger user customized, in general, we suggest user to replace the default logger with specified" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="263" />
-        <entry key="ENGLISH" value="264" />
+        <entry key="CHINESE" value="265" />
+        <entry key="ENGLISH" value="266" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
