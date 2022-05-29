@@ -2,7 +2,8 @@
   <component name="CodeInsightSettings">
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
     <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
-    <option name="HIGHLIGHT_SCOPE" value="true" />
+    <option name="HIGHLIGHT_BRACES" value="false" />
+    <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Project Default copy">
     <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="6" />
@@ -14,6 +15,8 @@
     <option name="SHOW_INTENTION_PREVIEW" value="true" />
     <option name="IS_CAMEL_WORDS" value="true" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+    <option name="RENAME_VARIABLES_INPLACE" value="false" />
+    <option name="SHOW_INLINE_DIALOG" value="false" />
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
