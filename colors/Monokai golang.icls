@@ -4,7 +4,7 @@
     <property name="created">2019-12-04T17:52:14</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2019.2.5.0.0</property>
-    <property name="modified">2022-05-29T12:42:08</property>
+    <property name="modified">2022-05-29T12:58:15</property>
     <property name="originalScheme">_@user_Monokai</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -631,7 +631,7 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="EFFECT_COLOR" value="aa4e00" />
+        <option name="BACKGROUND" value="4a3f10" />
         <option name="ERROR_STRIPE_COLOR" value="f49810" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -860,7 +860,7 @@
     </option>
     <option name="INFO_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ea0d5a" />
+        <option name="EFFECT_COLOR" value="a39662" />
         <option name="ERROR_STRIPE_COLOR" value="ffffcc" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
