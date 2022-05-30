@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
     <histories>
+      <item value="WhenAll receives function slice and returns a Future. If all Futures are resolved, this Future will be resolved and return results slice. Otherwise will rejected with results slice returned by all Futures Legit types of act are same with Start function" />
       <item value="Notifications returns a channel of Notifications that occur during consumer rebalancing. Notifications will only be emitted over this channel, if your config's Group.Return.Notifications setting to true." />
       <item value="Return specifies which group channels will be populated. If they are set to true, you must read from the respective channels to prevent deadlock." />
       <item value="If enabled, rebalance notification will be returned on the Notifications channel (default disabled)." />
@@ -53,12 +54,11 @@
       <item value="returns the persistent FlagSet specifically set in the current command." />
       <item value="sets the maximum amount of time a connection may be reused." />
       <item value="spanid" />
-      <item value="Handle registers a new route with a matcher for the URL path and method." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="266" />
-        <entry key="ENGLISH" value="267" />
+        <entry key="CHINESE" value="267" />
+        <entry key="ENGLISH" value="268" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
