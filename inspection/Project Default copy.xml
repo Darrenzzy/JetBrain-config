@@ -11,6 +11,7 @@
       <function importPath="fmt" name="Println" />
       <function importPath="fmt" name="Print" />
       <function importPath="fmt" name="Fprintf" />
+      <function importPath="git.ztosys.com/ZTO_CS/tag-ms/tag-service/pkg/mq" name="SendRocketMess" />
     </functions>
   </inspection_tool>
   <inspection_tool class="GoUnnecessarilyExportedIdentifiers" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
