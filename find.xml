@@ -5,10 +5,12 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.go,!*pb.go,!*date.go," />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.go2</mask>
     <mask>*.go</mask>
+    <mask>*.go,!*pb.go,!*date.go,</mask>
   </component>
 </application>
