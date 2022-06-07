@@ -3,63 +3,62 @@
     <option name="newTranslationDialogCollapseDictViewer" value="false" />
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
-    <option name="pinNewTranslationDialog" value="true" />
     <histories>
-      <item value="BoolVarP is like BoolVar, but accepts a shorthand letter that can be used after a single dash." />
+      <item value="WhenAll receives function slice and returns a Future. If all Futures are resolved, this Future will be resolved and return results slice. Otherwise will rejected with results slice returned by all Futures Legit types of act are same with Start function" />
+      <item value="Notifications returns a channel of Notifications that occur during consumer rebalancing. Notifications will only be emitted over this channel, if your config's Group.Return.Notifications setting to true." />
+      <item value="Return specifies which group channels will be populated. If they are set to true, you must read from the respective channels to prevent deadlock." />
+      <item value="If enabled, rebalance notification will be returned on the Notifications channel (default disabled)." />
+      <item value="OffsetNewest stands for the log head offset, i.e. the offset that will be assigned to the next message that will be produced to the partition. You can send this to a client's GetOffset method to get this offset, or when calling ConsumePartition to start consuming new messages." />
+      <item value="The retention duration for committed offsets. If zero, disabled (in which case the `offsets.retention.minutes` option on the broker will be used). Kafka only supports precision up to milliseconds; nanoseconds will be truncated. Requires Kafka broker version 0.9.0 or later. (default is 0: disabled)." />
+      <item value="The initial offset to use if no offset was previously committed. Should be OffsetNewest or OffsetOldest. Defaults to OffsetNewest." />
+      <item value="OffsetOldest stands for the oldest offset available on the broker for a partition. You can send this to a client's GetOffset method to get this offset, or when calling ConsumePartition to start consuming from the oldest offset that is still available on the broker." />
+      <item value="The strategy to use for the allocation of partitions to consumers (defaults to StrategyRange)" />
+      <item value="An attempt to consume the same partition twice should fail." />
+      <item value="Partition" />
+      <item value="Trim returns a slice of the string s with all leading and trailing Unicode code points contained in cutset removed." />
+      <item value="Join concatenates the elements of its first argument to create a single string. The separator string sep is placed between elements in the resulting string." />
+      <item value="Slice sorts the slice x given the provided less function. It panics if x is not a slice. The sort is not guaranteed to be stable: equal elements may be reversed from their original order. For a stable sort, use SliceStable. The less function must satisfy the same requirements as the Interface type's Less method." />
+      <item value="Update records, bean's non-empty fields are updated contents, condiBean' non-empty filds are conditions CAUTION: 1.bool will defaultly be updated content nor conditions You should call UseBool if you have bool to use. 2.float32 &amp; float64 may be not inexact as conditions" />
+      <item value="Unix returns the local Time corresponding to the given Unix time, sec seconds and nsec nanoseconds since January 1, 1970 UTC. It is valid to pass nsec outside the range [0, 999999999]. Not all sec values have a corresponding time value. One such value is 1&lt;&lt;63-1 (the largest int64 value)." />
+      <item value="Instancer listens to a service discovery system and notifies registered observers of changes in the resource instances. Every event sent to the channels contains a complete set of instances known to the Instancer. That complete set is sent immediately upon registering the channel, and on any future updates from discovery system." />
+      <item value="Any returned error will be of type url.Error. The url.Error value's Timeout method will report true if the request timed out." />
+      <item value="primitive" />
+      <item value="Strategy Algorithm for message allocating between consumers An allocate strategy proxy for based on machine room nearside priority. An actual allocate strategy can be specified. If any consumer is alive in a machine room, the message queue of the broker which is deployed in the same machine should only be allocated to those. Otherwise, those message queues can be shared along all consumers since there are no alive consumer to monopolize them. Average Hashing queue algorithm Cycle average Hashing queue algorithm Use Message QueueID specified Computer room Hashing queue algorithm, such as Alipay logic room Consistent Hashing queue algorithm" />
+      <item value="Max re-consume times. -1 means 16 times. If messages are re-consumed more than {@link maxReconsumeTimes} before Success, it's be directed to a deletion queue waiting." />
+      <item value="WithChainConsumerInterceptor returns a ConsumerOption that specifies the chained interceptor for consumer. The first interceptor will be the outer most, while the last interceptor will be the inner most wrapper around the real call." />
+      <item value="convey" />
+      <item value="role list by group" />
+      <item value="The delete built-in function deletes the element with the specified key (m[key]) from the map. If m is nil or there is no such element, delete is a no-op." />
+      <item value="AsyncProducer publishes Kafka messages using a non-blocking API. It routes messages to the correct broker for the provided topic-partition, refreshing metadata as appropriate, and parses responses for errors. You must read from the Errors() channel or the producer will deadlock. You must call Close() or AsyncClose() on a producer to avoid leaks and message lost: it will not be garbage-collected automatically when it passes out of scope and buffered messages may not be flushed." />
+      <item value="IdleTimeout is the maximum amount of time to wait for the next request when keep-alives are enabled. If IdleTimeout is zero, the value of ReadTimeout is used. If both are zero, there is no timeout." />
+      <item value="device intercept time" />
+      <item value="outs length must greater than" />
+      <item value="Provides a possibility to directly insert a mapping based on type and value. This makes it possible to directly map type arguments not possible to instantiate with reflect like unidirectional channels." />
+      <item value="Called inject.InterfaceOf with a value that is not a pointer to an interface. (MyInterface)(nil)" />
+      <item value="Maps the concrete value of val to its dynamic type using reflect.TypeOf, It returns the TypeMapper registered in." />
+      <item value="inject" />
+      <item value="argument" />
+      <item value="Direct" />
+      <item value="injected" />
+      <item value="IsValid reports whether v represents a value. It returns false if v is the zero Value. If IsValid returns false, all other methods except String panic. Most functions and methods never return an invalid Value. If one does, its documentation states the conditions explicitly." />
+      <item value="Maps the interface{} value based on its immediate type from reflect.TypeOf. Map(interface{}) TypeMapper Maps the interface{} value based on the pointer of an Interface provided. This is really only useful for mapping a value as an interface, as interfaces cannot at this time be referenced directly without a pointer. MapTo(interface{}, interface{}) TypeMapper Provides a possibility to directly insert a mapping based on type and value. This makes it possible to directly map type arguments not possible to instantiate with reflect like unidirectional channels. Set(reflect.Type, reflect.Value) TypeMapper Returns the Value that is mapped to the current type. Returns a zeroed Value if the Type has not been mapped." />
+      <item value="retcode" />
+      <item value="topicssentinel" />
+      <item value="pls try later" />
+      <item value="pls later try" />
+      <item value="IsFilterExt decribes if rPath's ext match filter ext" />
+      <item value="FileSystem is the interface for supporting any implmentation of file system." />
+      <item value="For most projects, this workflow file will not need changing; you simply need to commit it to your repository. You may wish to alter this file to override the set of languages analyzed, or to provide custom queries or build logic. NOTE We have attempted to detect the languages in your repository. Please check the `language` matrix defined below to confirm you have the correct set of supported CodeQL languages." />
       <item value="returns all the slaves" />
       <item value="returns the complete FlagSet that applies to this command (local and persistent declared here and by all parents)." />
       <item value="returns the persistent FlagSet specifically set in the current command." />
       <item value="sets the maximum amount of time a connection may be reused." />
       <item value="spanid" />
-      <item value="Handle registers a new route with a matcher for the URL path and method." />
-      <item value="If root command has SilentErrors flagged, all subcommands should respect it" />
-      <item value="A program compiled with -buildmode=c-archive or c-shared has a main, but it is not executed." />
-      <item value="SetLogger use specified logger user customized, in general, we suggest user to replace the default logger with specified" />
-      <item value="do balance in group failed, get consumer id list failed" />
-      <item value="Concurrently max span offset.it has no effect on sequential consumption" />
-      <item value="The delete built-in function deletes the element with the specified key (m[key]) from the map. If m is nil or there is no such element, delete is a no-op." />
-      <item value="The copy built-in function copies elements from a source slice into a destination slice. (As a special case, it also will copy bytes from a string to a slice of bytes.) The source and destination may overlap. Copy returns the number of elements copied, which will be the minimum of len(src) and len(dst)." />
-      <item value="track" />
-      <item value="批量" />
-      <item value="Fatch" />
-      <item value="Featch" />
-      <item value="Passport" />
-      <item value="解绑" />
-      <item value="api call latency" />
-      <item value="订阅" />
-      <item value="订阅&#10;" />
-      <item value="subscribe" />
-      <item value="Client Propagates Timeout" />
-      <item value="Split" />
-      <item value="emp_number emp_number emp_number" />
-      <item value="Position Desc" />
-      <item value="user post" />
-      <item value="PROACTIVE MSG" />
-      <item value="proactive" />
-      <item value="被动推送" />
-      <item value="主动通知" />
-      <item value="CREATETIME" />
-      <item value="create Time" />
-      <item value="Sharding" />
-      <item value="primitive" />
-      <item value="Property" />
-      <item value="Notity To Mq" />
-      <item value="Notity" />
-      <item value="Err Group Not Found" />
-      <item value="时间戳" />
-      <item value="Relation" />
-      <item value="Close release the connection from pool" />
-      <item value="处理" />
-      <item value="Find Tag Users By Tags" />
-      <item value="parameter is inserted" />
-      <item value="Intersect" />
-      <item value="Instance" />
-      <item value="Mechanical domain." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="223" />
-        <entry key="ENGLISH" value="224" />
+        <entry key="CHINESE" value="267" />
+        <entry key="ENGLISH" value="268" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -73,6 +72,9 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1648616980103" />
+    <option name="lastTrimTime" value="1654004565372" />
+  </component>
+  <component name="Settings">
+    <option name="translateDocumentation" value="true" />
   </component>
 </application>
