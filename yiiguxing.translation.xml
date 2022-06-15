@@ -4,6 +4,8 @@
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
     <histories>
+      <item value="AsyncClose triggers a shutdown of the producer. The shutdown has completed when both the Errors and Successes channels have been closed. When calling AsyncClose, you must continue to read from those channels in order to drain the results of any messages in flight." />
+      <item value="Close shuts down the producer and waits for any buffered messages to be flushed. You must call this function before a producer object passes out of scope, as it may otherwise leak memory. You must call this before process shutting down, or you may lose messages. You must call this before calling Close on the underlying client." />
       <item value="Invalid" />
       <item value="WhenAll receives function slice and returns a Future. If all Futures are resolved, this Future will be resolved and return results slice. Otherwise will rejected with results slice returned by all Futures Legit types of act are same with Start function" />
       <item value="Notifications returns a channel of Notifications that occur during consumer rebalancing. Notifications will only be emitted over this channel, if your config's Group.Return.Notifications setting to true." />
@@ -52,13 +54,11 @@
       <item value="For most projects, this workflow file will not need changing; you simply need to commit it to your repository. You may wish to alter this file to override the set of languages analyzed, or to provide custom queries or build logic. NOTE We have attempted to detect the languages in your repository. Please check the `language` matrix defined below to confirm you have the correct set of supported CodeQL languages." />
       <item value="returns all the slaves" />
       <item value="returns the complete FlagSet that applies to this command (local and persistent declared here and by all parents)." />
-      <item value="returns the persistent FlagSet specifically set in the current command." />
-      <item value="sets the maximum amount of time a connection may be reused." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="268" />
-        <entry key="ENGLISH" value="269" />
+        <entry key="CHINESE" value="270" />
+        <entry key="ENGLISH" value="271" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
@@ -72,6 +72,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1654582839861" />
+    <option name="lastTrimTime" value="1655274714558" />
   </component>
 </application>
