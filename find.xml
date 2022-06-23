@@ -7,7 +7,6 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="所有位置" />
-    <option name="FILE_MASK" value="!*.pb.go,!*grpc.go,!*http.go,!*points.go,!*client.go,!*entity.proto,!*date.go,!*swagger*" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
