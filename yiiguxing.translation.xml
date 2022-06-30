@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="424" />
     <option name="newTranslationDialogY" value="345" />
     <histories>
+      <item value="make sure that the message inside intervalResetting channel would be consumed before ticker.C." />
       <item value="test face check" />
       <item value="A hook to be fired when logging on the logging levels returned from `Levels()` on your implementation of the interface. Note that this is not fired in a goroutine or a channel with workers, you should handle such functionality yourself if your call is non-blocking and you don't wish for the logging calls for levels returned from `Levels()` to block." />
       <item value="MarkOffset marks the provided message as processed, alongside a metadata string that represents the state of the partition consumer at that point in time. The metadata string can be used by another consumer to restore that state, so it can resume consumption. Note: calling MarkOffset does not necessarily commit the offset to the backend store immediately for efficiency reasons, and it may never be committed if your application crashes. This means that you may end up processing the same message twice, and your processing should ideally be idempotent." />
@@ -53,12 +54,11 @@
       <item value="FileSystem is the interface for supporting any implmentation of file system." />
       <item value="For most projects, this workflow file will not need changing; you simply need to commit it to your repository. You may wish to alter this file to override the set of languages analyzed, or to provide custom queries or build logic. NOTE We have attempted to detect the languages in your repository. Please check the `language` matrix defined below to confirm you have the correct set of supported CodeQL languages." />
       <item value="returns all the slaves" />
-      <item value="returns the complete FlagSet that applies to this command (local and persistent declared here and by all parents)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="269" />
-        <entry key="ENGLISH" value="270" />
+        <entry key="CHINESE" value="270" />
+        <entry key="ENGLISH" value="271" />
         <entry key="ALBANIAN" value="1" />
         <entry key="AFRIKAANS" value="1" />
         <entry key="FILIPINO" value="1" />
